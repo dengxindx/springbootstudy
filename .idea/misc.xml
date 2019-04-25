@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/springboot-data-jpa/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-mutildatasource/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-mutildatasource-data-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mongodb/pom.xml" />
       </list>
     </option>
   </component>

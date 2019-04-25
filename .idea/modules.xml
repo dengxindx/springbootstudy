@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-application2/springboot-application2.iml" filepath="$PROJECT_DIR$/springboot-application2/springboot-application2.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-data-jpa/springboot-data-jpa.iml" filepath="$PROJECT_DIR$/springboot-data-jpa/springboot-data-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-freemarker/springboot-freemarker.iml" filepath="$PROJECT_DIR$/springboot-freemarker/springboot-freemarker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" filepath="$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mutildatasource/springboot-mutildatasource.iml" filepath="$PROJECT_DIR$/springboot-mutildatasource/springboot-mutildatasource.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mutildatasource-data-jpa/springboot-mutildatasource-data-jpa.iml" filepath="$PROJECT_DIR$/springboot-mutildatasource-data-jpa/springboot-mutildatasource-data-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-redis1/springboot-redis1.iml" filepath="$PROJECT_DIR$/springboot-redis1/springboot-redis1.iml" />

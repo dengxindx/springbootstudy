@@ -1,13 +1,14 @@
 ## 目录
 
-- 1[springboot整合redis](#ralated-redis)
-- 2[springboot配置文件](#ralated-aplication)
-- 3[springboot-Restful与swagger2文档维护](#ralated-swagger2)
-- 4[springboot-data-jpa](#ralated-data-jpa)
-- 5[springboot-mutildatasource多数据源配置](#ralated-mutildatasource)
+- [springboot整合redis](#ralated-redis)
+- [springboot配置文件](#ralated-aplication)
+- [springboot-Restful与swagger2文档维护](#ralated-swagger2)
+- [springboot-data-jpa](#ralated-data-jpa)
+- [springboot-mutildatasource多数据源配置](#ralated-mutildatasource)
+- [springboot-mongodb](#ralated-mongodb)
 
 <a name="ralated-redis"></a>
-- 1[springboot整合redis]()
+- 1、[springboot整合redis]()
     - jar包更新(jedis)：
     
         ```text
@@ -27,7 +28,7 @@
         </dependency>
         ```
 <a name="ralated-aplication"></a>
-- 2[springboot配置文件]()
+- 2、[springboot配置文件]()
     - 禁用命令行访问属性设置：
     
         ```text
@@ -66,7 +67,7 @@
     ```  
     
 <a name="ralated-swagger2"></a>
-- 3[springboot-Restful与swagger2文档维护]()
+- 3、[springboot-Restful与swagger2文档维护]()
     - jar包引入：
     
         ```text
@@ -91,7 +92,7 @@
         ``` 
         
 <a name="ralated-data-jpa"></a>
-- 4[springboot-data-jpa]()
+- 4、[springboot-data-jpa]()
     - 配置：
     
         ```text
@@ -117,7 +118,7 @@
         - Table:提供特定的数据库产生主键, 该方式更有利于数据库的移植
         
 <a name="ralated-mutildatasource"></a>
-- 5[springboot-mutildatasource多数据源配置]()
+- 5、[springboot-mutildatasource多数据源配置]()
 
     jdbctemplate主数据源配置为spring.datasource.primary开头的配置，第二数据源配置为spring.datasource.secondary开头的配置
         
@@ -353,4 +354,63 @@
           basePackages= { "com.dx.springbootmutildatasourcedatajpa.domain.p" }) //设置Repository所在位置
     ```        
     
+  <a name="ralated-mongodb"></a>
+- 5、[springboot-mongodb]()
        
+    mongodb创建用户：
+    ```text
+    > db.createUser(
+    ...   {
+    ...     user: "dba",
+    ...     pwd: "dba",
+    ...     roles: [ { role: "userAdminAnyDatabase", db: "admin" } ]
+    ...   }
+    ... )
+      
+  Built-In Roles（内置角色）：
+  1. 数据库用户角色：read、readWrite;
+  2. 数据库管理角色：dbAdmin、dbOwner、userAdmin；
+  3. 集群管理角色：clusterAdmin、clusterManager、clusterMonitor、hostManager；
+  4. 备份恢复角色：backup、restore；
+  5. 所有数据库角色：readAnyDatabase、readWriteAnyDatabase、userAdminAnyDatabase、dbAdminAnyDatabase
+  6. 超级用户角色：root  
+  // 这里还有几个角色间接或直接提供了系统超级用户的访问（dbOwner 、userAdmin、userAdminAnyDatabase）
+  7. 内部角色：__system  
+     
+    Read：允许用户读取指定数据库
+    readWrite：允许用户读写指定数据库
+    dbAdmin：允许用户在指定数据库中执行管理函数，如索引创建、删除，查看统计或访问system.profile
+    userAdmin：允许用户向system.users集合写入，可以找指定数据库里创建、删除和管理用户
+    clusterAdmin：只在admin数据库中可用，赋予用户所有分片和复制集相关函数的管理权限。
+    readAnyDatabase：只在admin数据库中可用，赋予用户所有数据库的读权限
+    readWriteAnyDatabase：只在admin数据库中可用，赋予用户所有数据库的读写权限
+    userAdminAnyDatabase：只在admin数据库中可用，赋予用户所有数据库的userAdmin权限
+    dbAdminAnyDatabase：只在admin数据库中可用，赋予用户所有数据库的dbAdmin权限。
+    root：只在admin数据库中可用。超级账号，超级权限
+  
+    ```   
+       
+    ```text
+    1、导入依赖：
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-data-mongodb</artifactId>
+    </dependency>
+     
+    2、实现实体类的数据访问对象：XxxxRepository
+    public interface XxxxRepository extends MongoRepository<User, Long> {
+    
+        User findByUsername(String username);
+        ...
+    }
+       
+    3、本地连接无需配置application
+      使用用户连接指定数据库:
+        spring.data.mongodb.uri=mongodb://dx:123@localhost:27017/test
+      若使用mongodb 2.x，也可以通过如下参数配置，该方式不支持mongodb 3.x。
+      spring.data.mongodb.host=localhost spring.data.mongodb.port=27017
+      
+    ```
+    mongodb多数据源等配置：**https://www.cnblogs.com/ityouknow/p/6828919.html**
+    
+    

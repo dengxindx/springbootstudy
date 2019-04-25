@@ -32,7 +32,10 @@ public class SpringbootRedis1ApplicationTests {
 		redisTemplate.opsForValue().set(user.getUsername(), user);
 
 		User user2 = new User("李四", 24);
-		redisTemplate.opsForValue().set(user.getUsername(), user2);
+		redisTemplate.opsForValue().set(user2.getUsername(), user2);
+
+		User user3 = new User("王五", 25);
+		redisTemplate.opsForValue().set(user3.getUsername(), user3);
 
 		System.out.println("张三年龄：" + redisTemplate.opsForValue().get("张三").getAge().longValue());
 

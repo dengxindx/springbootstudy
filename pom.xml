@@ -27,6 +27,7 @@
 		<module>springboot-data-jpa</module>
 		<module>springboot-mutildatasource</module>
 		<module>springboot-mutildatasource-data-jpa</module>
+		<module>springboot-mongodb</module>
 	</modules>
 
 	<properties>
