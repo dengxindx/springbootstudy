@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-application1" />
+        <module name="springboot-application2" />
+        <module name="springboot-data-jpa" />
+        <module name="springboot-freemarker" />
+        <module name="springboot-mutildatasource" />
+        <module name="springboot-mutildatasource-data-jpa" />
+        <module name="springboot-redis1" />
+        <module name="springboot-restful" />
+        <module name="springboot-swagger2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-parent" target="1.8" />
+      <module name="springboot-application1" target="1.8" />
+      <module name="springboot-application2" target="1.8" />
+      <module name="springboot-data-jpa" target="1.8" />
+      <module name="springboot-freemarker" target="1.8" />
+      <module name="springboot-mutildatasource" target="1.8" />
+      <module name="springboot-mutildatasource-data-jpa" target="1.8" />
+      <module name="springboot-redis1" target="1.8" />
+      <module name="springboot-restful" target="1.8" />
+      <module name="springboot-swagger2" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-parent.iml" filepath="$PROJECT_DIR$/spring-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-application1/springboot-application1.iml" filepath="$PROJECT_DIR$/springboot-application1/springboot-application1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-application2/springboot-application2.iml" filepath="$PROJECT_DIR$/springboot-application2/springboot-application2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-data-jpa/springboot-data-jpa.iml" filepath="$PROJECT_DIR$/springboot-data-jpa/springboot-data-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-freemarker/springboot-freemarker.iml" filepath="$PROJECT_DIR$/springboot-freemarker/springboot-freemarker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mutildatasource/springboot-mutildatasource.iml" filepath="$PROJECT_DIR$/springboot-mutildatasource/springboot-mutildatasource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mutildatasource-data-jpa/springboot-mutildatasource-data-jpa.iml" filepath="$PROJECT_DIR$/springboot-mutildatasource-data-jpa/springboot-mutildatasource-data-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-redis1/springboot-redis1.iml" filepath="$PROJECT_DIR$/springboot-redis1/springboot-redis1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-restful/springboot-restful.iml" filepath="$PROJECT_DIR$/springboot-restful/springboot-restful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-swagger2/springboot-swagger2.iml" filepath="$PROJECT_DIR$/springboot-swagger2/springboot-swagger2.iml" />
+    </modules>
+  </component>
+</project>

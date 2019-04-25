@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-application1/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-redis1/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-application2/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-restful/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-swagger2/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-freemarker/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-data-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mutildatasource/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mutildatasource-data-jpa/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
