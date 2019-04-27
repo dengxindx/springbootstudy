@@ -1,0 +1,39 @@
+2019-04-27 16:33:57,450  INFO Version:21 - HV000001: Hibernate Validator 6.0.16.Final
+2019-04-27 16:34:07,231  INFO WebLogAspect:37 - URL : http://localhost:8080/hello
+2019-04-27 16:34:07,232  INFO WebLogAspect:38 - HTTP_METHOD : GET
+2019-04-27 16:34:07,232  INFO WebLogAspect:39 - IP : 0:0:0:0:0:0:0:1
+2019-04-27 16:34:07,234  INFO WebLogAspect:40 - CLASS_METHOD : com.dx.springbootaoplog.controller.HelloController.hello
+2019-04-27 16:34:07,234  INFO WebLogAspect:41 - ARGS : [张三]
+2019-04-27 16:34:07,238  INFO WebLogAspect:46 - RESPONSE : Hello 张三
+2019-04-27 16:38:59,553  INFO Version:21 - HV000001: Hibernate Validator 6.0.16.Final
+2019-04-27 16:39:05,277  INFO WebLogAspect:40 - URL : http://localhost:8080/hello
+2019-04-27 16:39:05,277  INFO WebLogAspect:41 - HTTP_METHOD : GET
+2019-04-27 16:39:05,278  INFO WebLogAspect:42 - IP : 0:0:0:0:0:0:0:1
+2019-04-27 16:39:05,279  INFO WebLogAspect:43 - CLASS_METHOD : com.dx.springbootaoplog.controller.HelloController.hello
+2019-04-27 16:39:05,280  INFO WebLogAspect:44 - ARGS : [张三]
+2019-04-27 16:39:05,285  INFO WebLogAspect:49 - RESPONSE : Hello 张三
+2019-04-27 16:39:05,285  INFO WebLogAspect:50 - SPEND TIME : 9
+2019-04-27 16:51:50,058  INFO Version:21 - HV000001: Hibernate Validator 6.0.16.Final
+2019-04-27 16:51:55,818  INFO WebLogAspect:42 - before优先级5
+2019-04-27 16:51:55,819  INFO WebLogAspect:43 - URL : http://localhost:8080/hello
+2019-04-27 16:51:55,820  INFO WebLogAspect:44 - HTTP_METHOD : GET
+2019-04-27 16:51:55,820  INFO WebLogAspect:45 - IP : 0:0:0:0:0:0:0:1
+2019-04-27 16:51:55,822  INFO WebLogAspect:46 - CLASS_METHOD : com.dx.springbootaoplog.controller.HelloController.hello
+2019-04-27 16:51:55,822  INFO WebLogAspect:47 - ARGS : [张三]
+2019-04-27 16:51:55,823  INFO WebLogAspect:53 - before优先级10
+2019-04-27 16:51:55,827  INFO WebLogAspect:59 - after优先级5
+2019-04-27 16:51:55,828  INFO WebLogAspect:60 - RESPONSE : Hello 张三
+2019-04-27 16:51:55,828  INFO WebLogAspect:61 - SPEND TIME : 10
+2019-04-27 16:51:55,828  INFO WebLogAspect:68 - after优先级10
+2019-04-27 16:55:12,518  INFO Version:21 - HV000001: Hibernate Validator 6.0.16.Final
+2019-04-27 16:55:17,252  INFO WebLogAspect:42 - before优先级5
+2019-04-27 16:55:17,254  INFO WebLogAspect:43 - URL : http://localhost:8080/hello
+2019-04-27 16:55:17,254  INFO WebLogAspect:44 - HTTP_METHOD : GET
+2019-04-27 16:55:17,255  INFO WebLogAspect:45 - IP : 0:0:0:0:0:0:0:1
+2019-04-27 16:55:17,256  INFO WebLogAspect:46 - CLASS_METHOD : com.dx.springbootaoplog.controller.HelloController.hello
+2019-04-27 16:55:17,257  INFO WebLogAspect:47 - ARGS : [张三]
+2019-04-27 16:55:17,257  INFO WebLogAspect2:26 - before优先级10
+2019-04-27 16:55:17,264  INFO WebLogAspect2:32 - after优先级10
+2019-04-27 16:55:17,266  INFO WebLogAspect:52 - after优先级5
+2019-04-27 16:55:17,267  INFO WebLogAspect:53 - RESPONSE : Hello 张三
+2019-04-27 16:55:17,267  INFO WebLogAspect:54 - SPEND TIME : 15

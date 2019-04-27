@@ -28,6 +28,11 @@
 		<module>springboot-mutildatasource</module>
 		<module>springboot-mutildatasource-data-jpa</module>
 		<module>springboot-mongodb</module>
+		<module>springboot-mybatis</module>
+		<module>springboot-mybatis-annotation</module>
+		<module>springboot-mybatis-druid</module>
+		<module>springboot-log</module>
+		<module>springboot-aop-log</module>
 	</modules>
 
 	<properties>

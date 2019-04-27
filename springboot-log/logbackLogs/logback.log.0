@@ -1,0 +1,10 @@
+[2019-04-27 15:56:54.248] - 22216 信息 [main] --- com.dx.springbootlog.SpringbootLogApplication: Starting SpringbootLogApplication on JXL-20170825TXC with PID 22216 (D:\dengxin\aaaJavaStudy\springboot\project\SpringBoot-Learning\spring-parent\springboot-log\target\classes started by wudongchun in D:\dengxin\aaaJavaStudy\springboot\project\SpringBoot-Learning\spring-parent)
+[2019-04-27 15:56:54.291] - 22216 信息 [main] --- com.dx.springbootlog.SpringbootLogApplication: No active profile set, falling back to default profiles: default
+[2019-04-27 15:56:55.611] - 22216 信息 [main] --- org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+[2019-04-27 15:56:55.633] - 22216 信息 [main] --- org.apache.catalina.core.StandardService: Starting service [Tomcat]
+[2019-04-27 15:56:55.635] - 22216 信息 [main] --- org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.17]
+[2019-04-27 15:56:55.736] - 22216 信息 [main] --- org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+[2019-04-27 15:56:55.737] - 22216 信息 [main] --- org.springframework.web.context.ContextLoader: Root WebApplicationContext: initialization completed in 1408 ms
+[2019-04-27 15:56:55.987] - 22216 信息 [main] --- org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor: Initializing ExecutorService 'applicationTaskExecutor'
+[2019-04-27 15:56:56.184] - 22216 信息 [main] --- org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+[2019-04-27 15:56:56.188] - 22216 信息 [main] --- com.dx.springbootlog.SpringbootLogApplication: Started SpringbootLogApplication in 2.378 seconds (JVM running for 3.327)
