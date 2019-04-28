@@ -9,6 +9,9 @@
         <module name="springboot-aop-log" />
         <module name="springboot-application1" />
         <module name="springboot-application2" />
+        <module name="springboot-async" />
+        <module name="springboot-async-threadpool" />
+        <module name="springboot-async-threadpool-close" />
         <module name="springboot-data-jpa" />
         <module name="springboot-freemarker" />
         <module name="springboot-log" />
@@ -20,6 +23,8 @@
         <module name="springboot-mybatis-druid" />
         <module name="springboot-redis1" />
         <module name="springboot-restful" />
+        <module name="springboot-schedul" />
+        <module name="springboot-security" />
         <module name="springboot-swagger2" />
       </profile>
     </annotationProcessing>
@@ -28,6 +33,9 @@
       <module name="springboot-aop-log" target="1.8" />
       <module name="springboot-application1" target="1.8" />
       <module name="springboot-application2" target="1.8" />
+      <module name="springboot-async" target="1.8" />
+      <module name="springboot-async-threadpool" target="1.8" />
+      <module name="springboot-async-threadpool-close" target="1.8" />
       <module name="springboot-data-jpa" target="1.8" />
       <module name="springboot-freemarker" target="1.8" />
       <module name="springboot-log" target="1.8" />
@@ -39,6 +47,8 @@
       <module name="springboot-mybatis-druid" target="1.8" />
       <module name="springboot-redis1" target="1.8" />
       <module name="springboot-restful" target="1.8" />
+      <module name="springboot-schedul" target="1.8" />
+      <module name="springboot-security" target="1.8" />
       <module name="springboot-swagger2" target="1.8" />
     </bytecodeTargetLevel>
   </component>

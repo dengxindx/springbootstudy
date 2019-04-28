@@ -2,37 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="505cb4e5-1fbf-45ff-81b1-be49b5e43d23" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_18.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j_unknown.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-aop-log/src/main/java/com/dx/springbootaoplog/controller/HelloController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-aop-log/src/main/java/com/dx/springbootaoplog/service/WebLogAspect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-aop-log/src/main/java/com/dx/springbootaoplog/service/WebLogAspect2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-aop-log/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-log/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mybatis-annotation/src/main/java/com/dx/springbootmybatisannotation/controller/CityRestController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mybatis-annotation/src/main/java/com/dx/springbootmybatisannotation/dao/CityDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mybatis-annotation/src/main/java/com/dx/springbootmybatisannotation/domain/City.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mybatis-annotation/src/main/java/com/dx/springbootmybatisannotation/service/CityService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mybatis-annotation/src/main/java/com/dx/springbootmybatisannotation/service/impl/CityServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mybatis-druid/src/main/java/com/dx/springbootmybatisdruid/config/ClusterDataSourceConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mybatis-druid/src/main/java/com/dx/springbootmybatisdruid/config/MasterDataSourceConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mybatis-druid/src/main/java/com/dx/springbootmybatisdruid/controller/UserRestController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mybatis-druid/src/main/java/com/dx/springbootmybatisdruid/dao/cluster/CityDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mybatis-druid/src/main/java/com/dx/springbootmybatisdruid/dao/master/UserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mybatis-druid/src/main/java/com/dx/springbootmybatisdruid/domain/City.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mybatis-druid/src/main/java/com/dx/springbootmybatisdruid/domain/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mybatis-druid/src/main/java/com/dx/springbootmybatisdruid/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mybatis-druid/src/main/java/com/dx/springbootmybatisdruid/service/impl/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mybatis-druid/src/main/resources/mapper/cluster/CityMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mybatis-druid/src/main/resources/mapper/master/UserMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/dx/springbootmybatis/controller/CityRestController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/dx/springbootmybatis/dao/CityDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/dx/springbootmybatis/domain/City.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/dx/springbootmybatis/service/CityService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/dx/springbootmybatis/service/impl/CityServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/resources/mapper/CityMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-async-threadpool-close/src/main/java/com/dx/springbootasyncthreadpoolclose/Task.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-async-threadpool/src/main/java/com/dx/springbootasyncthreadpool/Task.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-async/src/main/java/com/dx/springbootasync/Task.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-async/src/main/java/com/dx/springbootasync/Task2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-async/src/test/java/com/dx/springbootasync/Task2Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-async/src/test/java/com/dx/springbootasync/Task3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-schedul/src/main/java/com/dx/springbootschedul/ScheduledTasks.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
@@ -58,6 +35,11 @@
     <ignored path="$PROJECT_DIR$/springboot-mybatis-druid/target/" />
     <ignored path="$PROJECT_DIR$/springboot-log/target/" />
     <ignored path="$PROJECT_DIR$/springboot-aop-log/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-schedul/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-async/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-async-threadpool/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-async-threadpool-close/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-security/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,37 +51,106 @@
     <SUITE FILE_PATH="coverage/spring_parent$SpringbootRestfulApplication.coverage" NAME="SpringbootRestfulApplication Coverage Results" MODIFIED="1555999582802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="665">
-                <caret line="845" column="4" lean-forward="true" selection-start-line="845" selection-start-column="4" selection-end-line="845" selection-end-column="4" />
+              <first_editor relative-caret-position="687">
+                <caret line="1380" column="0" lean-forward="false" selection-start-line="1380" selection-start-column="0" selection-end-line="1380" selection-end-column="0" />
                 <folding>
-                  <marker date="1556355401844" expanded="true" signature="18925:19635" ph="..." />
-                  <marker date="1556355401844" expanded="true" signature="19645:19670" ph="/**...*/" />
-                  <marker date="1556355401844" expanded="true" signature="19675:19802" ph="@{...}" />
-                  <marker date="1556355401844" expanded="true" signature="20411:20460" ph="@{...}" />
-                  <marker date="1556355401844" expanded="true" signature="20505:20791" ph="{...}" />
-                  <marker date="1556355401844" expanded="true" signature="20805:20862" ph="@{...}" />
-                  <marker date="1556355401844" expanded="true" signature="20935:21019" ph="{...}" />
-                  <marker date="1556355401844" expanded="true" signature="21033:21089" ph="@{...}" />
-                  <marker date="1556355401844" expanded="true" signature="21240:21625" ph="{...}" />
-                  <marker date="1556355401844" expanded="true" signature="21392:21568" ph="//..." />
-                  <marker date="1556355401844" expanded="true" signature="21405:21568" ph="//..." />
-                  <marker date="1556355401844" expanded="true" signature="21741:22392" ph="..." />
-                  <marker date="1556355401844" expanded="true" signature="22402:22556" ph="@{...}" />
-                  <marker date="1556355401844" expanded="true" signature="23244:23530" ph="{...}" />
-                  <marker date="1556355401844" expanded="true" signature="23658:23743" ph="{...}" />
-                  <marker date="1556355401844" expanded="true" signature="23951:24325" ph="{...}" />
-                  <marker date="1556355401844" expanded="true" signature="24104:24268" ph="//..." />
-                  <marker date="1556355401844" expanded="true" signature="24444:24584" ph="..." />
-                  <marker date="1556355401844" expanded="true" signature="24594:24617" ph="@{...}" />
-                  <marker date="1556355401844" expanded="true" signature="24691:25053" ph="@{...}" />
+                  <marker date="1556445165483" expanded="true" signature="17332:17994" ph="..." />
+                  <marker date="1556445165483" expanded="true" signature="17996:18013" ph="/**...*/" />
+                  <marker date="1556445165483" expanded="true" signature="18014:18137" ph="@{...}" />
+                  <marker date="1556445165483" expanded="true" signature="18670:18715" ph="@{...}" />
+                  <marker date="1556445165483" expanded="true" signature="18756:19014" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="19020:19073" ph="@{...}" />
+                  <marker date="1556445165483" expanded="true" signature="19142:19218" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="19224:19276" ph="@{...}" />
+                  <marker date="1556445165483" expanded="true" signature="19419:19776" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="19559:19727" ph="//..." />
+                  <marker date="1556445165483" expanded="true" signature="19568:19727" ph="//..." />
+                  <marker date="1556445165483" expanded="true" signature="19864:20471" ph="..." />
+                  <marker date="1556445165483" expanded="true" signature="20473:20619" ph="@{...}" />
+                  <marker date="1556445165483" expanded="true" signature="21227:21485" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="21601:21678" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="21870:22220" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="22011:22171" ph="//..." />
+                  <marker date="1556445165483" expanded="true" signature="22311:22443" ph="..." />
+                  <marker date="1556445165483" expanded="true" signature="22445:22464" ph="@{...}" />
+                  <marker date="1556445165483" expanded="true" signature="22522:22860" ph="@{...}" />
+                  <marker date="1556445165483" expanded="true" signature="28057:28287" ph="@{...}" />
+                  <marker date="1556445165483" expanded="true" signature="28064:28243" ph="..." />
+                  <marker date="1556445165483" expanded="true" signature="28247:28287" ph="@{...}" />
+                  <marker date="1556445165483" expanded="false" signature="28372:28377" ph=" { " />
+                  <marker date="1556445165483" expanded="false" signature="28441:28444" ph=" }" />
+                  <marker date="1556445165483" expanded="true" signature="29008:29229" ph="..." />
+                  <marker date="1556445165483" expanded="true" signature="29382:29670" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="29742:30030" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="30102:30390" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="30424:30742" ph="..." />
+                  <marker date="1556445165483" expanded="true" signature="30744:30788" ph="@{...}" />
+                  <marker date="1556445165483" expanded="true" signature="30961:31437" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="31581:31751" ph="..." />
+                  <marker date="1556445165483" expanded="true" signature="31916:32222" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="32305:32611" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="32694:33000" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="33029:33409" ph="..." />
+                  <marker date="1556445165483" expanded="true" signature="33411:33455" ph="@{...}" />
+                  <marker date="1556445165483" expanded="true" signature="33602:34172" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="34223:34443" ph="..." />
+                  <marker date="1556445165483" expanded="true" signature="34447:34491" ph="@{...}" />
+                  <marker date="1556445165483" expanded="true" signature="34517:34555" ph="/**...*/" />
+                  <marker date="1556445165483" expanded="true" signature="34587:34741" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="34747:34796" ph="/**...*/" />
+                  <marker date="1556445165483" expanded="true" signature="34828:35402" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="34890:35081" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="35131:35322" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="35408:35481" ph="/**...*/" />
+                  <marker date="1556445165483" expanded="true" signature="35513:36074" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="35575:35767" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="35819:36012" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="36080:36129" ph="/**...*/" />
+                  <marker date="1556445165483" expanded="true" signature="36161:36681" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="36223:36516" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="36537:36630" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="36803:37250" ph="..." />
+                  <marker date="1556445165483" expanded="true" signature="37367:37372" ph=" { " />
+                  <marker date="1556445165483" expanded="true" signature="37444:37447" ph=" }" />
+                  <marker date="1556445165483" expanded="true" signature="37450:37517" ph="/**...*/" />
+                  <marker date="1556445165483" expanded="true" signature="37519:37547" ph="@{...}" />
+                  <marker date="1556445165483" expanded="true" signature="37570:37998" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="37630:37995" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="38903:39136" ph="..." />
+                  <marker date="1556445165483" expanded="true" signature="39138:39182" ph="@{...}" />
+                  <marker date="1556445165483" expanded="true" signature="39337:39427" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="39919:40177" ph="..." />
+                  <marker date="1556445165483" expanded="true" signature="40179:40196" ph="@{...}" />
+                  <marker date="1556445165483" expanded="true" signature="40359:40595" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="40669:40905" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="40981:41217" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="41245:41645" ph="..." />
+                  <marker date="1556445165483" expanded="true" signature="41768:41852" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="41855:41883" ph="@{...}" />
+                  <marker date="1556445165483" expanded="true" signature="41906:42321" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="41965:42318" ph="{...}" />
+                  <marker date="1556445165483" expanded="true" signature="42348:42609" ph="..." />
+                  <marker date="1556445165483" expanded="true" signature="42611:42655" ph="@{...}" />
+                  <marker date="1556445165483" expanded="true" signature="42753:42773" ph="@{...}" />
+                  <marker date="1556445165483" expanded="true" signature="42794:42904" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringbootSecurityApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot-security/src/main/java/com/dx/springbootsecurity/SpringbootSecurityApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,25 +160,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Interface" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>findUser</find>
-      <find>spring.datasource.primary</find>
-      <find>entityManagerFactorySecondary</find>
-      <find>primaryDataSource</find>
-      <find>transactionManagerRef</find>
-      <find>secondaryDataSource</find>
-      <find>entityManagerPrimary</find>
-      <find>entityManagerFactoryPrimary</find>
-      <find>transactionManagerPrimary</find>
-      <find>RedisTemplate</find>
-      <find>annotation</find>
       <find>springboot-mybatis-druid</find>
       <find>ralated-mybatis-druid</find>
       <find>springboot配置文件</find>
@@ -147,6 +187,17 @@
       <find>file</find>
       <find>springbootaoplog</find>
       <find>2019-04-27 16:32:10,234  INFO Version:21 - HV000001: Hibernate Validator 6.0.16.Final</find>
+      <find>future</find>
+      <find>Either</find>
+      <find>`</find>
+      <find>name</find>
+      <find>ralated-async-threadpool-close</find>
+      <find>core</find>
+      <find>taskExecutor</find>
+      <find>Could not</find>
+      <find>JedisConnectionExcepti</find>
+      <find>Could not get a resource from the pool</find>
+      <find>JedisConnectionException</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -160,36 +211,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/dx/springbootmybatis/service/CityService.java" />
-        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/dx/springbootmybatis/SpringbootMybatisApplication.java" />
-        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/resources/mapper/CityMapper.xml" />
-        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/dx/springbootmybatis/domain/City.java" />
-        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/dx/springbootmybatis/service/impl/CityServiceImpl.java" />
-        <option value="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/dx/springbootmybatis/dao/CityDao.java" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-annotation/src/main/java/com/dx/springbootmybatisannotation/service/CityService.java" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-annotation/src/main/java/com/dx/springbootmybatisannotation/controller/CityRestController.java" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-annotation/src/main/java/com/dx/springbootmybatisannotation/service/impl/CityServiceImpl.java" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-annotation/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-annotation/src/main/resources/mapper/CityMapper.xml" />
-        <option value="$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar!/org/jboss/logging/Param.class" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-annotation/src/main/java/com/dx/springbootmybatisannotation/SpringbootMybatisAnnotationApplication.java" />
-        <option value="$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar!/org/apache/ibatis/annotations/ResultMap.class" />
-        <option value="$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar!/org/apache/ibatis/annotations/Results.class" />
-        <option value="$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar!/org/apache/ibatis/annotations/Result.class" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-annotation/src/main/java/com/dx/springbootmybatisannotation/dao/CityDao.java" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-annotation/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-druid/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1.jar!/org/mybatis/spring/SqlSessionFactoryBean.class" />
-        <option value="$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE.jar!/org/springframework/core/io/support/PathMatchingResourcePatternResolver.class" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-druid/src/main/java/com/dx/springbootmybatisdruid/domain/City.java" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-druid/src/main/java/com/dx/springbootmybatisdruid/service/UserService.java" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-druid/src/main/java/com/dx/springbootmybatisdruid/domain/User.java" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-druid/src/main/java/com/dx/springbootmybatisdruid/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-druid/src/main/java/com/dx/springbootmybatisdruid/controller/UserRestController.java" />
-        <option value="$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-druid/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-druid/src/main/resources/mapper.master/UserMapper.xml" />
         <option value="$PROJECT_DIR$/springboot-mybatis-druid/src/main/java/com/dx/springbootmybatisdruid/config/MasterDataSourceConfig.java" />
         <option value="$PROJECT_DIR$/springboot-mybatis-druid/src/main/java/com/dx/springbootmybatisdruid/config/ClusterDataSourceConfig.java" />
         <option value="$PROJECT_DIR$/springboot-mybatis-druid/src/main/resources/mapper/cluster/CityMapper.xml" />
@@ -203,14 +224,44 @@
         <option value="$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar!/org/jboss/logging/Logger.class" />
         <option value="$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2.jar!/org/aspectj/lang/annotation/Pointcut.class" />
         <option value="$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE.jar!/org/springframework/web/context/request/RequestContextHolder.class" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-aop-log/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-aop-log/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/springboot-aop-log/logs/all.log" />
         <option value="$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE.jar!/org/springframework/core/annotation/Order.class" />
         <option value="$PROJECT_DIR$/springboot-aop-log/src/main/java/com/dx/springbootaoplog/service/WebLogAspect.java" />
         <option value="$PROJECT_DIR$/springboot-aop-log/src/main/java/com/dx/springbootaoplog/service/WebLogAspect2.java" />
+        <option value="$PROJECT_DIR$/springboot-schedul/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-schedul/src/main/java/com/dx/springbootschedul/SpringbootSchedulApplication.java" />
+        <option value="$PROJECT_DIR$/springboot-schedul/src/main/java/com/dx/springbootschedul/ScheduledTasks.java" />
+        <option value="$PROJECT_DIR$/springboot-async/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-async/src/main/java/com/dx/springbootasync/SpringbootAsyncApplication.java" />
+        <option value="$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/scheduling/annotation/Async.class" />
+        <option value="$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/scheduling/annotation/AsyncResult.class" />
+        <option value="$PROJECT_DIR$/springboot-async/src/main/java/com/dx/springbootasync/Task.java" />
+        <option value="$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE.jar!/org/springframework/util/concurrent/ListenableFuture.class" />
+        <option value="$PROJECT_DIR$/springboot-async/src/main/java/com/dx/springbootasync/Task2.java" />
+        <option value="$PROJECT_DIR$/springboot-async/src/test/java/com/dx/springbootasync/Task2Test.java" />
+        <option value="$PROJECT_DIR$/springboot-async/src/test/java/com/dx/springbootasync/Task3.java" />
+        <option value="$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/scheduling/concurrent/ThreadPoolTaskExecutor.class" />
+        <option value="$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/scheduling/concurrent/ExecutorConfigurationSupport.class" />
+        <option value="$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE.jar!/org/springframework/core/task/AsyncListenableTaskExecutor.class" />
+        <option value="$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE.jar!/org/springframework/core/task/AsyncTaskExecutor.class" />
+        <option value="$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE.jar!/org/springframework/core/task/TaskExecutor.class" />
+        <option value="$PROJECT_DIR$/springboot-async-threadpool/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-async-threadpool/src/main/java/com/dx/springbootasyncthreadpool/Task.java" />
+        <option value="$PROJECT_DIR$/springboot-async-threadpool/src/test/java/com/dx/springbootasyncthreadpool/SpringbootAsyncThreadpoolApplicationTests.java" />
+        <option value="$PROJECT_DIR$/springboot-async-threadpool/src/main/java/com/dx/springbootasyncthreadpool/SpringbootAsyncThreadpoolApplication.java" />
+        <option value="$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/scheduling/concurrent/ThreadPoolTaskScheduler.class" />
+        <option value="$PROJECT_DIR$/springboot-async-threadpool-close/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-async-threadpool-close/src/main/java/com/dx/springbootasyncthreadpoolclose/Task.java" />
+        <option value="$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/springframework/data/spring-data-redis/2.1.6.RELEASE/spring-data-redis-2.1.6.RELEASE.jar!/org/springframework/data/redis/connection/lettuce/LettuceConnectionFactory.class" />
+        <option value="$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/io/lettuce/lettuce-core/5.1.6.RELEASE/lettuce-core-5.1.6.RELEASE.jar!/io/lettuce/core/AbstractRedisClient.class" />
+        <option value="$PROJECT_DIR$/springboot-async-threadpool-close/src/test/java/com/dx/springbootasyncthreadpoolclose/SpringbootAsyncThreadpoolCloseApplicationTests.java" />
+        <option value="$PROJECT_DIR$/springboot-async-threadpool-close/src/main/java/com/dx/springbootasyncthreadpoolclose/SpringbootAsyncThreadpoolCloseApplication.java" />
+        <option value="$PROJECT_DIR$/springboot-async/src/test/java/com/dx/springbootasync/SpringbootAsyncApplicationTests.java" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-security/pom.xml" />
       </list>
     </option>
   </component>
@@ -274,14 +325,57 @@
     <panes>
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootsecurity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -290,10 +384,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/work/interface-other" />
+    <property name="last_opened_file_path" value="D:/work/interface-common" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelWidth1" value="75" />
@@ -307,9 +401,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.dx.springbootasync" />
       <recent name="com.dx.springbootapplication2.property" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dx.springbootasync" />
       <recent name="com.dx.springbootmutildatasourcedatajpa" />
       <recent name="com.dx.springbootfreemarker" />
     </key>
@@ -336,7 +432,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringbootAopLogApplication">
+  <component name="RunManager" selected="JUnit.SpringbootAsyncThreadpoolCloseApplicationTests.test">
     <configuration name="SpringbootAopLogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dx.springbootaoplog.SpringbootAopLogApplication" />
@@ -354,6 +450,87 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dx.springbootapplication2.SpringbootApplication2Application" />
       <module name="springboot-application2" />
       <envs />
+    </configuration>
+    <configuration name="SpringbootAsyncThreadpoolApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.dx.springbootasyncthreadpool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="springboot-async-threadpool" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.dx.springbootasyncthreadpool" />
+      <option name="MAIN_CLASS_NAME" value="com.dx.springbootasyncthreadpool.SpringbootAsyncThreadpoolApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="SpringbootAsyncThreadpoolCloseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dx.springbootasyncthreadpoolclose.SpringbootAsyncThreadpoolCloseApplication" />
+      <module name="springboot-async-threadpool-close" />
+      <envs />
+    </configuration>
+    <configuration name="SpringbootAsyncThreadpoolCloseApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.dx.springbootasyncthreadpoolclose.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="springboot-async-threadpool-close" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.dx.springbootasyncthreadpoolclose" />
+      <option name="MAIN_CLASS_NAME" value="com.dx.springbootasyncthreadpoolclose.SpringbootAsyncThreadpoolCloseApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="SpringbootAsyncThreadpoolCloseApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.dx.springbootasyncthreadpoolclose.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="springboot-async-threadpool-close" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.dx.springbootasyncthreadpoolclose" />
+      <option name="MAIN_CLASS_NAME" value="com.dx.springbootasyncthreadpoolclose.SpringbootAsyncThreadpoolCloseApplicationTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration name="SpringbootDataJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -379,117 +556,17 @@
       <module name="springboot-mongodb" />
       <envs />
     </configuration>
-    <configuration name="SpringbootMongodbApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.dx.springbootmongodb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="springboot-mongodb" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.dx.springbootmongodb" />
-      <option name="MAIN_CLASS_NAME" value="com.dx.springbootmongodb.SpringbootMongodbApplicationTests" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="SpringbootMutildatasourceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dx.springbootmutildatasource.SpringbootMutildatasourceApplication" />
       <module name="springboot-mutildatasource" />
       <envs />
     </configuration>
-    <configuration name="SpringbootMutildatasourceApplicationTests.jdbcTemplateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.dx.springbootmutildatasource.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="springboot-mutildatasource" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.dx.springbootmutildatasource" />
-      <option name="MAIN_CLASS_NAME" value="com.dx.springbootmutildatasource.SpringbootMutildatasourceApplicationTests" />
-      <option name="METHOD_NAME" value="jdbcTemplateTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="SpringbootMutildatasourceDataJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dx.springbootmutildatasourcedatajpa.SpringbootMutildatasourceDataJpaApplication" />
       <module name="springboot-mutildatasource-data-jpa" />
       <envs />
-    </configuration>
-    <configuration name="SpringbootMutildatasourceDataJpaApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.dx.springbootmutildatasourcedatajpa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="springboot-mutildatasource-data-jpa" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.dx.springbootmutildatasourcedatajpa" />
-      <option name="MAIN_CLASS_NAME" value="com.dx.springbootmutildatasourcedatajpa.SpringbootMutildatasourceDataJpaApplicationTests" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="SpringbootMutildatasourceDataJpaApplicationTests.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.dx.springbootmutildatasourcedatajpa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="springboot-mutildatasource-data-jpa" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.dx.springbootmutildatasourcedatajpa" />
-      <option name="MAIN_CLASS_NAME" value="com.dx.springbootmutildatasourcedatajpa.SpringbootMutildatasourceDataJpaApplicationTests" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration name="SpringbootMybatisAnnotationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -515,19 +592,37 @@
       <module name="springboot-redis1" />
       <envs />
     </configuration>
-    <configuration name="SpringbootRedis1ApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpringbootRestfulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dx.springbootrestful.SpringbootRestfulApplication" />
+      <module name="springboot-restful" />
+      <envs />
+    </configuration>
+    <configuration name="SpringbootSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dx.springbootsecurity.SpringbootSecurityApplication" />
+      <module name="springboot-security" />
+      <envs />
+    </configuration>
+    <configuration name="SpringbootSwagger2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dx.springbootswagger2.SpringbootSwagger2Application" />
+      <module name="springboot-swagger2" />
+      <envs />
+    </configuration>
+    <configuration name="Task3.t3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.dx.springbootredis1.*" />
+          <option name="PATTERN" value="com.dx.springbootasync.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="springboot-redis1" />
+      <module name="springboot-async" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.dx.springbootredis1" />
-      <option name="MAIN_CLASS_NAME" value="com.dx.springbootredis1.SpringbootRedis1ApplicationTests" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.dx.springbootasync" />
+      <option name="MAIN_CLASS_NAME" value="com.dx.springbootasync.Task3" />
+      <option name="METHOD_NAME" value="t3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -540,17 +635,30 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="SpringbootRestfulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dx.springbootrestful.SpringbootRestfulApplication" />
-      <module name="springboot-restful" />
+    <configuration name="Task3.t4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.dx.springbootasync.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="springboot-async" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.dx.springbootasync" />
+      <option name="MAIN_CLASS_NAME" value="com.dx.springbootasync.Task3" />
+      <option name="METHOD_NAME" value="t4" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
       <envs />
-    </configuration>
-    <configuration name="SpringbootSwagger2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dx.springbootswagger2.SpringbootSwagger2Application" />
-      <module name="springboot-swagger2" />
-      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -633,7 +741,7 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="20">
+    <list size="22">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.SpringbootApplication1Application" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.SpringbootRedis1Application" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.SpringbootApplication2Application" />
@@ -642,26 +750,28 @@
       <item index="5" class="java.lang.String" itemvalue="Spring Boot.SpringbootFreemarkerApplication" />
       <item index="6" class="java.lang.String" itemvalue="Spring Boot.SpringbootDataJpaApplication" />
       <item index="7" class="java.lang.String" itemvalue="Spring Boot.SpringbootMutildatasourceApplication" />
-      <item index="8" class="java.lang.String" itemvalue="JUnit.SpringbootMutildatasourceApplicationTests.jdbcTemplateTest" />
-      <item index="9" class="java.lang.String" itemvalue="Spring Boot.SpringbootMutildatasourceDataJpaApplication" />
-      <item index="10" class="java.lang.String" itemvalue="JUnit.SpringbootMutildatasourceDataJpaApplicationTests.test" />
-      <item index="11" class="java.lang.String" itemvalue="JUnit.SpringbootMutildatasourceDataJpaApplicationTests.test2" />
-      <item index="12" class="java.lang.String" itemvalue="JUnit.SpringbootRedis1ApplicationTests.test" />
-      <item index="13" class="java.lang.String" itemvalue="Spring Boot.SpringbootMongodbApplication" />
-      <item index="14" class="java.lang.String" itemvalue="JUnit.SpringbootMongodbApplicationTests.test" />
-      <item index="15" class="java.lang.String" itemvalue="Spring Boot.SpringbootMybatisApplication" />
-      <item index="16" class="java.lang.String" itemvalue="Spring Boot.SpringbootMybatisAnnotationApplication" />
-      <item index="17" class="java.lang.String" itemvalue="Spring Boot.SpringbootMybatisDruidApplication" />
-      <item index="18" class="java.lang.String" itemvalue="Spring Boot.SpringbootLogApplication" />
-      <item index="19" class="java.lang.String" itemvalue="Spring Boot.SpringbootAopLogApplication" />
+      <item index="8" class="java.lang.String" itemvalue="Spring Boot.SpringbootMutildatasourceDataJpaApplication" />
+      <item index="9" class="java.lang.String" itemvalue="Spring Boot.SpringbootMongodbApplication" />
+      <item index="10" class="java.lang.String" itemvalue="Spring Boot.SpringbootMybatisApplication" />
+      <item index="11" class="java.lang.String" itemvalue="Spring Boot.SpringbootMybatisAnnotationApplication" />
+      <item index="12" class="java.lang.String" itemvalue="Spring Boot.SpringbootMybatisDruidApplication" />
+      <item index="13" class="java.lang.String" itemvalue="Spring Boot.SpringbootLogApplication" />
+      <item index="14" class="java.lang.String" itemvalue="Spring Boot.SpringbootAopLogApplication" />
+      <item index="15" class="java.lang.String" itemvalue="JUnit.Task3.t3" />
+      <item index="16" class="java.lang.String" itemvalue="JUnit.Task3.t4" />
+      <item index="17" class="java.lang.String" itemvalue="JUnit.SpringbootAsyncThreadpoolApplicationTests.contextLoads" />
+      <item index="18" class="java.lang.String" itemvalue="Spring Boot.SpringbootAsyncThreadpoolCloseApplication" />
+      <item index="19" class="java.lang.String" itemvalue="JUnit.SpringbootAsyncThreadpoolCloseApplicationTests.contextLoads" />
+      <item index="20" class="java.lang.String" itemvalue="JUnit.SpringbootAsyncThreadpoolCloseApplicationTests.test" />
+      <item index="21" class="java.lang.String" itemvalue="Spring Boot.SpringbootSecurityApplication" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SpringbootMongodbApplicationTests.test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SpringbootRedis1ApplicationTests.test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SpringbootMutildatasourceDataJpaApplicationTests.test2" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SpringbootMutildatasourceDataJpaApplicationTests.test" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SpringbootMutildatasourceApplicationTests.jdbcTemplateTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SpringbootAsyncThreadpoolCloseApplicationTests.test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SpringbootAsyncThreadpoolCloseApplicationTests.contextLoads" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SpringbootAsyncThreadpoolApplicationTests.contextLoads" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Task3.t4" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Task3.t3" />
       </list>
     </recent_temporary>
   </component>
@@ -679,103 +789,80 @@
       <option name="presentableId" value="Default" />
       <updated>1555669724409</updated>
       <workItem from="1555669729849" duration="64251000" />
+      <workItem from="1556440240861" duration="6353000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpringbootMongodbApplicationTests_test - 2019.04.25 at 15h 19m 15s.xml">
-      <configuration name="SpringbootMongodbApplicationTests.test" configurationId="JUnit" />
+    <history-entry file="SpringbootAsyncThreadpoolCloseApplicationTests_contextLoads - 2019.04.28 at 17h 14m 38s.xml">
+      <configuration name="SpringbootAsyncThreadpoolCloseApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringbootMongodbApplicationTests_test - 2019.04.25 at 15h 20m 05s.xml">
-      <configuration name="SpringbootMongodbApplicationTests.test" configurationId="JUnit" />
+    <history-entry file="SpringbootAsyncThreadpoolCloseApplicationTests_contextLoads - 2019.04.28 at 17h 16m 58s.xml">
+      <configuration name="SpringbootAsyncThreadpoolCloseApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringbootMongodbApplicationTests_test - 2019.04.25 at 15h 21m 19s.xml">
-      <configuration name="SpringbootMongodbApplicationTests.test" configurationId="JUnit" />
+    <history-entry file="SpringbootAsyncThreadpoolCloseApplicationTests_test - 2019.04.28 at 17h 20m 47s.xml">
+      <configuration name="SpringbootAsyncThreadpoolCloseApplicationTests.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringbootMongodbApplicationTests_test - 2019.04.25 at 15h 23m 16s.xml">
-      <configuration name="SpringbootMongodbApplicationTests.test" configurationId="JUnit" />
+    <history-entry file="SpringbootAsyncThreadpoolCloseApplicationTests_test - 2019.04.28 at 17h 21m 42s.xml">
+      <configuration name="SpringbootAsyncThreadpoolCloseApplicationTests.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringbootMongodbApplicationTests_test - 2019.04.25 at 15h 24m 09s.xml">
-      <configuration name="SpringbootMongodbApplicationTests.test" configurationId="JUnit" />
+    <history-entry file="SpringbootAsyncThreadpoolCloseApplicationTests_test - 2019.04.28 at 17h 22m 38s.xml">
+      <configuration name="SpringbootAsyncThreadpoolCloseApplicationTests.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringbootMongodbApplicationTests_test - 2019.04.25 at 15h 24m 56s.xml">
-      <configuration name="SpringbootMongodbApplicationTests.test" configurationId="JUnit" />
+    <history-entry file="SpringbootAsyncThreadpoolCloseApplicationTests_test - 2019.04.28 at 17h 23m 25s.xml">
+      <configuration name="SpringbootAsyncThreadpoolCloseApplicationTests.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringbootMongodbApplicationTests_test - 2019.04.25 at 15h 30m 48s.xml">
-      <configuration name="SpringbootMongodbApplicationTests.test" configurationId="JUnit" />
+    <history-entry file="SpringbootAsyncThreadpoolCloseApplicationTests_test - 2019.04.28 at 17h 24m 00s.xml">
+      <configuration name="SpringbootAsyncThreadpoolCloseApplicationTests.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringbootMongodbApplicationTests_test - 2019.04.25 at 15h 44m 36s.xml">
-      <configuration name="SpringbootMongodbApplicationTests.test" configurationId="JUnit" />
+    <history-entry file="SpringbootAsyncThreadpoolCloseApplicationTests_test - 2019.04.28 at 17h 24m 31s.xml">
+      <configuration name="SpringbootAsyncThreadpoolCloseApplicationTests.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringbootMongodbApplicationTests_test - 2019.04.25 at 15h 54m 39s.xml">
-      <configuration name="SpringbootMongodbApplicationTests.test" configurationId="JUnit" />
+    <history-entry file="SpringbootAsyncThreadpoolCloseApplicationTests_test - 2019.04.28 at 17h 25m 49s.xml">
+      <configuration name="SpringbootAsyncThreadpoolCloseApplicationTests.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringbootMongodbApplicationTests_test - 2019.04.25 at 15h 55m 04s.xml">
-      <configuration name="SpringbootMongodbApplicationTests.test" configurationId="JUnit" />
+    <history-entry file="SpringbootAsyncThreadpoolCloseApplicationTests_test - 2019.04.28 at 17h 26m 48s.xml">
+      <configuration name="SpringbootAsyncThreadpoolCloseApplicationTests.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111215000" />
+    <option name="totallyTimeSpent" value="137682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Redis Servers" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48091602" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40676117" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3478735" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2113127" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Redis Servers" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42872688" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3569097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Redis Servers" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45801526" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26224157" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2289221" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42857143" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -786,7 +873,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="23" />
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -795,378 +882,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis-druid/src/main/resources/mapper/cluster/master/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis-druid/src/main/resources/mapper.cluster/CityMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis-druid/src/main/resources/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis-annotation/src/main/java/com/dx/springbootmybatisannotation/controller/CityRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="17" column="55" lean-forward="false" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis-annotation/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis-annotation/src/main/java/com/dx/springbootmybatisannotation/domain/City.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis-annotation/src/main/java/com/dx/springbootmybatisannotation/service/impl/CityServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis-druid/src/main/java/com/dx/springbootmybatisdruid/controller/UserRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis-druid/src/main/java/com/dx/springbootmybatisdruid/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis-annotation/src/main/java/com/dx/springbootmybatisannotation/dao/CityDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="21" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis-druid/src/main/java/com/dx/springbootmybatisdruid/dao/master/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis-druid/src/main/resources/mapper/master/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="85" lean-forward="true" selection-start-line="9" selection-start-column="85" selection-end-line="9" selection-end-column="85" />
-          <folding>
-            <marker date="1556263114321" expanded="true" signature="837:948" ph="select from user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis-druid/src/main/resources/mapper/cluster/CityMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="54" lean-forward="true" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
-          <folding>
-            <marker date="1556263114353" expanded="true" signature="920:1048" ph="select from city" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis-druid/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis-druid/src/main/java/com/dx/springbootmybatisdruid/config/ClusterDataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="21" column="75" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis-druid/src/main/java/com/dx/springbootmybatisdruid/config/MasterDataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="18" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis-druid/src/main/java/com/dx/springbootmybatisdruid/dao/cluster/CityDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis-druid/src/main/java/com/dx/springbootmybatisdruid/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis-druid/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="43" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-log/HELP.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-122">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.0">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.log.0">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-log/logs/logback.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-log/logbackLogs/logback.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-log/logbackLogs/logback.log.0">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-log/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-aop-log/src/test/java/com/dx/springbootaoplog/SpringbootAopLogApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../java8/src.zip!/java/util/logging/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="490" column="25" lean-forward="false" selection-start-line="490" selection-start-column="25" selection-end-line="490" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../java8/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="62" column="33" lean-forward="false" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../java8/jre/lib/rt.jar!/com/sun/istack/internal/logging/Logger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar!/org/jboss/logging/Logger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28578">
-          <caret line="1337" column="25" lean-forward="false" selection-start-line="1337" selection-start-column="25" selection-end-line="1337" selection-end-column="25" />
-          <folding>
-            <element signature="e#45972#45973#0" expanded="true" />
-            <element signature="e#46021#46022#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2.jar!/org/aspectj/lang/annotation/Pointcut.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE.jar!/org/springframework/web/context/request/RequestContextHolder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="44" column="36" lean-forward="false" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-log/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="51" lean-forward="true" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-log/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="61" lean-forward="true" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-aop-log/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-aop-log/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="34" column="43" lean-forward="false" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Logger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding>
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-aop-log/logs/springbootaoplog.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-aop-log/logs/all.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../../../java8/src.zip!/java/lang/ThreadLocal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-528">
           <caret line="147" column="11" lean-forward="false" selection-start-line="147" selection-start-column="11" selection-end-line="147" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1174,7 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1182,7 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1190,13 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="579">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1204,9 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="557">
           <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1214,7 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1226,35 +932,436 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-schedul/src/main/java/com/dx/springbootschedul/ScheduledTasks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-schedul/src/main/java/com/dx/springbootschedul/SpringbootSchedulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-schedul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-async/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-async/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/scheduling/annotation/Async.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../java8/src.zip!/java/util/concurrent/FutureTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3136">
+          <caret line="62" column="48" lean-forward="false" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../java8/src.zip!/java/util/concurrent/Future.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="95" column="19" lean-forward="true" selection-start-line="95" selection-start-column="19" selection-end-line="95" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../java8/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="1154" column="27" lean-forward="true" selection-start-line="1154" selection-start-column="27" selection-end-line="1154" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE.jar!/org/springframework/util/concurrent/ListenableFuture.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/scheduling/annotation/AsyncResult.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-async/src/main/java/com/dx/springbootasync/Task2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" column="71" lean-forward="true" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../java8/src.zip!/java/util/function/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../java8/src.zip!/java/util/concurrent/CompletableFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1657">
+          <caret line="2073" column="49" lean-forward="false" selection-start-line="2073" selection-start-column="43" selection-end-line="2073" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-async/src/main/java/com/dx/springbootasync/SpringbootAsyncApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE.jar!/org/springframework/core/task/TaskExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE.jar!/org/springframework/core/task/AsyncTaskExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE.jar!/org/springframework/core/task/AsyncListenableTaskExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="56" lean-forward="false" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/scheduling/concurrent/ExecutorConfigurationSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="45" column="90" lean-forward="false" selection-start-line="45" selection-start-column="90" selection-end-line="45" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../java8/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="2095" column="15" lean-forward="false" selection-start-line="2095" selection-start-column="15" selection-end-line="2095" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-async/src/main/java/com/dx/springbootasync/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/projectlombok/lombok/1.18.6/lombok-1.18.6.jar!/lombok/extern/slf4j/Slf4j.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/scheduling/concurrent/ThreadPoolTaskExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="114" column="27" lean-forward="false" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-async-threadpool/src/main/java/com/dx/springbootasyncthreadpool/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-async-threadpool/src/test/java/com/dx/springbootasyncthreadpool/SpringbootAsyncThreadpoolApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-redis1/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-async-threadpool/src/main/java/com/dx/springbootasyncthreadpool/SpringbootAsyncThreadpoolApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/scheduling/concurrent/ThreadPoolTaskScheduler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4688">
+          <caret line="37" column="34" lean-forward="true" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-async-threadpool/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="21" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/springframework/data/spring-data-redis/2.1.6.RELEASE/spring-data-redis-2.1.6.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="585" column="13" lean-forward="false" selection-start-line="585" selection-start-column="13" selection-end-line="585" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-async-threadpool-close/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/org/springframework/data/spring-data-redis/2.1.6.RELEASE/spring-data-redis-2.1.6.RELEASE.jar!/org/springframework/data/redis/connection/lettuce/LettuceConnectionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="719" column="0" lean-forward="false" selection-start-line="719" selection-start-column="0" selection-end-line="719" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-async-threadpool-close/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="29" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../eclipseJavaEE/MavenDemo/repositories/io/lettuce/lettuce-core/5.1.6.RELEASE/lettuce-core-5.1.6.RELEASE.jar!/io/lettuce/core/AbstractRedisClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="147" column="73" lean-forward="true" selection-start-line="147" selection-start-column="73" selection-end-line="147" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-async-threadpool-close/src/main/java/com/dx/springbootasyncthreadpoolclose/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-async-threadpool-close/src/test/java/com/dx/springbootasyncthreadpoolclose/SpringbootAsyncThreadpoolCloseApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-async/src/test/java/com/dx/springbootasync/Task3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="64" column="29" lean-forward="true" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-async/src/test/java/com/dx/springbootasync/SpringbootAsyncApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="41" column="8" lean-forward="false" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-async/src/test/java/com/dx/springbootasync/Task2Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-async-threadpool-close/src/main/java/com/dx/springbootasyncthreadpoolclose/SpringbootAsyncThreadpoolCloseApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="37" column="52" lean-forward="false" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-security/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="665">
-            <caret line="845" column="4" lean-forward="true" selection-start-line="845" selection-start-column="4" selection-end-line="845" selection-end-column="4" />
+          <first_editor relative-caret-position="687">
+            <caret line="1380" column="0" lean-forward="false" selection-start-line="1380" selection-start-column="0" selection-end-line="1380" selection-end-column="0" />
             <folding>
-              <marker date="1556355401844" expanded="true" signature="18925:19635" ph="..." />
-              <marker date="1556355401844" expanded="true" signature="19645:19670" ph="/**...*/" />
-              <marker date="1556355401844" expanded="true" signature="19675:19802" ph="@{...}" />
-              <marker date="1556355401844" expanded="true" signature="20411:20460" ph="@{...}" />
-              <marker date="1556355401844" expanded="true" signature="20505:20791" ph="{...}" />
-              <marker date="1556355401844" expanded="true" signature="20805:20862" ph="@{...}" />
-              <marker date="1556355401844" expanded="true" signature="20935:21019" ph="{...}" />
-              <marker date="1556355401844" expanded="true" signature="21033:21089" ph="@{...}" />
-              <marker date="1556355401844" expanded="true" signature="21240:21625" ph="{...}" />
-              <marker date="1556355401844" expanded="true" signature="21392:21568" ph="//..." />
-              <marker date="1556355401844" expanded="true" signature="21405:21568" ph="//..." />
-              <marker date="1556355401844" expanded="true" signature="21741:22392" ph="..." />
-              <marker date="1556355401844" expanded="true" signature="22402:22556" ph="@{...}" />
-              <marker date="1556355401844" expanded="true" signature="23244:23530" ph="{...}" />
-              <marker date="1556355401844" expanded="true" signature="23658:23743" ph="{...}" />
-              <marker date="1556355401844" expanded="true" signature="23951:24325" ph="{...}" />
-              <marker date="1556355401844" expanded="true" signature="24104:24268" ph="//..." />
-              <marker date="1556355401844" expanded="true" signature="24444:24584" ph="..." />
-              <marker date="1556355401844" expanded="true" signature="24594:24617" ph="@{...}" />
-              <marker date="1556355401844" expanded="true" signature="24691:25053" ph="@{...}" />
+              <marker date="1556445165483" expanded="true" signature="17332:17994" ph="..." />
+              <marker date="1556445165483" expanded="true" signature="17996:18013" ph="/**...*/" />
+              <marker date="1556445165483" expanded="true" signature="18014:18137" ph="@{...}" />
+              <marker date="1556445165483" expanded="true" signature="18670:18715" ph="@{...}" />
+              <marker date="1556445165483" expanded="true" signature="18756:19014" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="19020:19073" ph="@{...}" />
+              <marker date="1556445165483" expanded="true" signature="19142:19218" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="19224:19276" ph="@{...}" />
+              <marker date="1556445165483" expanded="true" signature="19419:19776" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="19559:19727" ph="//..." />
+              <marker date="1556445165483" expanded="true" signature="19568:19727" ph="//..." />
+              <marker date="1556445165483" expanded="true" signature="19864:20471" ph="..." />
+              <marker date="1556445165483" expanded="true" signature="20473:20619" ph="@{...}" />
+              <marker date="1556445165483" expanded="true" signature="21227:21485" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="21601:21678" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="21870:22220" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="22011:22171" ph="//..." />
+              <marker date="1556445165483" expanded="true" signature="22311:22443" ph="..." />
+              <marker date="1556445165483" expanded="true" signature="22445:22464" ph="@{...}" />
+              <marker date="1556445165483" expanded="true" signature="22522:22860" ph="@{...}" />
+              <marker date="1556445165483" expanded="true" signature="28057:28287" ph="@{...}" />
+              <marker date="1556445165483" expanded="true" signature="28064:28243" ph="..." />
+              <marker date="1556445165483" expanded="true" signature="28247:28287" ph="@{...}" />
+              <marker date="1556445165483" expanded="false" signature="28372:28377" ph=" { " />
+              <marker date="1556445165483" expanded="false" signature="28441:28444" ph=" }" />
+              <marker date="1556445165483" expanded="true" signature="29008:29229" ph="..." />
+              <marker date="1556445165483" expanded="true" signature="29382:29670" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="29742:30030" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="30102:30390" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="30424:30742" ph="..." />
+              <marker date="1556445165483" expanded="true" signature="30744:30788" ph="@{...}" />
+              <marker date="1556445165483" expanded="true" signature="30961:31437" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="31581:31751" ph="..." />
+              <marker date="1556445165483" expanded="true" signature="31916:32222" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="32305:32611" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="32694:33000" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="33029:33409" ph="..." />
+              <marker date="1556445165483" expanded="true" signature="33411:33455" ph="@{...}" />
+              <marker date="1556445165483" expanded="true" signature="33602:34172" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="34223:34443" ph="..." />
+              <marker date="1556445165483" expanded="true" signature="34447:34491" ph="@{...}" />
+              <marker date="1556445165483" expanded="true" signature="34517:34555" ph="/**...*/" />
+              <marker date="1556445165483" expanded="true" signature="34587:34741" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="34747:34796" ph="/**...*/" />
+              <marker date="1556445165483" expanded="true" signature="34828:35402" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="34890:35081" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="35131:35322" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="35408:35481" ph="/**...*/" />
+              <marker date="1556445165483" expanded="true" signature="35513:36074" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="35575:35767" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="35819:36012" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="36080:36129" ph="/**...*/" />
+              <marker date="1556445165483" expanded="true" signature="36161:36681" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="36223:36516" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="36537:36630" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="36803:37250" ph="..." />
+              <marker date="1556445165483" expanded="true" signature="37367:37372" ph=" { " />
+              <marker date="1556445165483" expanded="true" signature="37444:37447" ph=" }" />
+              <marker date="1556445165483" expanded="true" signature="37450:37517" ph="/**...*/" />
+              <marker date="1556445165483" expanded="true" signature="37519:37547" ph="@{...}" />
+              <marker date="1556445165483" expanded="true" signature="37570:37998" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="37630:37995" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="38903:39136" ph="..." />
+              <marker date="1556445165483" expanded="true" signature="39138:39182" ph="@{...}" />
+              <marker date="1556445165483" expanded="true" signature="39337:39427" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="39919:40177" ph="..." />
+              <marker date="1556445165483" expanded="true" signature="40179:40196" ph="@{...}" />
+              <marker date="1556445165483" expanded="true" signature="40359:40595" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="40669:40905" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="40981:41217" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="41245:41645" ph="..." />
+              <marker date="1556445165483" expanded="true" signature="41768:41852" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="41855:41883" ph="@{...}" />
+              <marker date="1556445165483" expanded="true" signature="41906:42321" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="41965:42318" ph="{...}" />
+              <marker date="1556445165483" expanded="true" signature="42348:42609" ph="..." />
+              <marker date="1556445165483" expanded="true" signature="42611:42655" ph="@{...}" />
+              <marker date="1556445165483" expanded="true" signature="42753:42773" ph="@{...}" />
+              <marker date="1556445165483" expanded="true" signature="42794:42904" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-security/src/main/java/com/dx/springbootsecurity/SpringbootSecurityApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>

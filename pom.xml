@@ -33,6 +33,11 @@
 		<module>springboot-mybatis-druid</module>
 		<module>springboot-log</module>
 		<module>springboot-aop-log</module>
+		<module>springboot-schedul</module>
+		<module>springboot-async</module>
+		<module>springboot-async-threadpool</module>
+		<module>springboot-async-threadpool-close</module>
+		<module>springboot-security</module>
 	</modules>
 
 	<properties>

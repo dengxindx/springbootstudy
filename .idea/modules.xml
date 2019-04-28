@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-aop-log/springboot-aop-log.iml" filepath="$PROJECT_DIR$/springboot-aop-log/springboot-aop-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-application1/springboot-application1.iml" filepath="$PROJECT_DIR$/springboot-application1/springboot-application1.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-application2/springboot-application2.iml" filepath="$PROJECT_DIR$/springboot-application2/springboot-application2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-async/springboot-async.iml" filepath="$PROJECT_DIR$/springboot-async/springboot-async.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-async-threadpool/springboot-async-threadpool.iml" filepath="$PROJECT_DIR$/springboot-async-threadpool/springboot-async-threadpool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-async-threadpool-close/springboot-async-threadpool-close.iml" filepath="$PROJECT_DIR$/springboot-async-threadpool-close/springboot-async-threadpool-close.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-data-jpa/springboot-data-jpa.iml" filepath="$PROJECT_DIR$/springboot-data-jpa/springboot-data-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-freemarker/springboot-freemarker.iml" filepath="$PROJECT_DIR$/springboot-freemarker/springboot-freemarker.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-log/springboot-log.iml" filepath="$PROJECT_DIR$/springboot-log/springboot-log.iml" />
@@ -17,6 +20,8 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis-druid/springboot-mybatis-druid.iml" filepath="$PROJECT_DIR$/springboot-mybatis-druid/springboot-mybatis-druid.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-redis1/springboot-redis1.iml" filepath="$PROJECT_DIR$/springboot-redis1/springboot-redis1.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-restful/springboot-restful.iml" filepath="$PROJECT_DIR$/springboot-restful/springboot-restful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-schedul/springboot-schedul.iml" filepath="$PROJECT_DIR$/springboot-schedul/springboot-schedul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-security/springboot-security.iml" filepath="$PROJECT_DIR$/springboot-security/springboot-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-swagger2/springboot-swagger2.iml" filepath="$PROJECT_DIR$/springboot-swagger2/springboot-swagger2.iml" />
     </modules>
   </component>
