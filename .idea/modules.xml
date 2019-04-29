@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-async/springboot-async.iml" filepath="$PROJECT_DIR$/springboot-async/springboot-async.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-async-threadpool/springboot-async-threadpool.iml" filepath="$PROJECT_DIR$/springboot-async-threadpool/springboot-async-threadpool.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-async-threadpool-close/springboot-async-threadpool-close.iml" filepath="$PROJECT_DIR$/springboot-async-threadpool-close/springboot-async-threadpool-close.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-cache-ehcache/springboot-cache-ehcache.iml" filepath="$PROJECT_DIR$/springboot-cache-ehcache/springboot-cache-ehcache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-cache-redis/springboot-cache-redis.iml" filepath="$PROJECT_DIR$/springboot-cache-redis/springboot-cache-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-data-jpa/springboot-data-jpa.iml" filepath="$PROJECT_DIR$/springboot-data-jpa/springboot-data-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-freemarker/springboot-freemarker.iml" filepath="$PROJECT_DIR$/springboot-freemarker/springboot-freemarker.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-log/springboot-log.iml" filepath="$PROJECT_DIR$/springboot-log/springboot-log.iml" />

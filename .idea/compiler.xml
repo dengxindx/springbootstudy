@@ -12,6 +12,8 @@
         <module name="springboot-async" />
         <module name="springboot-async-threadpool" />
         <module name="springboot-async-threadpool-close" />
+        <module name="springboot-cache-ehcache" />
+        <module name="springboot-cache-redis" />
         <module name="springboot-data-jpa" />
         <module name="springboot-freemarker" />
         <module name="springboot-log" />
@@ -36,6 +38,8 @@
       <module name="springboot-async" target="1.8" />
       <module name="springboot-async-threadpool" target="1.8" />
       <module name="springboot-async-threadpool-close" target="1.8" />
+      <module name="springboot-cache-ehcache" target="1.8" />
+      <module name="springboot-cache-redis" target="1.8" />
       <module name="springboot-data-jpa" target="1.8" />
       <module name="springboot-freemarker" target="1.8" />
       <module name="springboot-log" target="1.8" />

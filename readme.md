@@ -16,9 +16,11 @@
 - [springboot-async-threadpool自定义线程池](#ralated-async-threadpool)
 - [springboot-async-threadpool-close线程池正确关闭](#ralated-async-threadpool-close)
 - [springboot-security安全控制](#ralated-security)
+- [springboot-cache-ehcache缓存支持注解配置与EhCache使用](#ralated-cache-ehcache)
+- [springboot-cache-redis集中缓存Redis](#ralated-cache-redis)
 
 <a name="ralated-redis"></a>
-###1、[springboot整合redis]()
+###1、springboot整合redis
 - jar包更新(jedis)：
 
     ```text
@@ -38,7 +40,7 @@
     </dependency>
     ```
 <a name="ralated-aplication"></a>
-###2、[springboot配置文件]()
+###2、springboot配置文件
 - 禁用命令行访问属性设置：
 
     ```text
@@ -77,7 +79,7 @@
 ```  
     
 <a name="ralated-swagger2"></a>
-###3、[springboot-Restful与swagger2文档维护]()
+###3、springboot-Restful与swagger2文档维护
 - jar包引入：
 
     ```text
@@ -102,7 +104,7 @@
     ``` 
         
 <a name="ralated-data-jpa"></a>
-###4、[springboot-data-jpa]()
+###4、springboot-data-jpa
 - 配置：
 
     ```text
@@ -128,7 +130,7 @@
     - Table:提供特定的数据库产生主键, 该方式更有利于数据库的移植
     
 <a name="ralated-mutildatasource"></a>
-###5、[springboot-mutildatasource多数据源配置]()
+###5、springboot-mutildatasource多数据源配置
 
 jdbctemplate主数据源配置为spring.datasource.primary开头的配置，第二数据源配置为spring.datasource.secondary开头的配置
     
@@ -365,7 +367,7 @@ spring-data-jpa多数据源配置:
 ```        
 
 <a name="ralated-mongodb"></a>
-###6、[springboot-mongodb]()
+###6、springboot-mongodb
        
 mongodb创建用户：
 ```text
@@ -424,7 +426,7 @@ public interface XxxxRepository extends MongoRepository<User, Long> {
 mongodb多数据源等配置：**https://www.cnblogs.com/ityouknow/p/6828919.html**
 
 <a name="ralated-mybatis"></a>  
-###7、[springboot-mybatis]() 
+###7、springboot-mybatis
 mybatis 配置相关详解如下：          
 ```text
    mybatis.config = mybatis 配置文件名称
@@ -438,7 +440,7 @@ mybatis 配置相关详解如下：
 
 <a name="ralated-mybatis-annotation"></a>  
     
-###8、[springboot-mybatis-annotation]()
+###8、springboot-mybatis-annotation
 
 **Mybatis注解配置，不用xml**
 
@@ -479,7 +481,7 @@ public interface CityDao {
 ```       
     
 <a name="ralated-mybatis-druid"></a>    
-###9、[springboot-mybatis-druid]()  
+###9、springboot-mybatis-druid
 案列配置了xml和注解方式
 
 **引入jar包：**
@@ -670,7 +672,7 @@ public interface CityDao {
 
 ```
 <a name="ralated-log"></a>  
-###10、[springboot-log]()  
+###10、springboot-log
 
 **springboot默认日志，logback**
 
@@ -810,7 +812,7 @@ log4j.appender.errorfile.layout=org.apache.log4j.PatternLayout
 log4j.appender.errorfile.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss,SSS} %5p %c{1}:%L - %m%n
 ```
 <a name="ralated-aop-log"></a>     
-###11、[springboot-aop-log]() 
+###11、springboot-aop-log
     
 **springboot使用aop统一处理web请求日志**
 
@@ -849,7 +851,7 @@ log4j.appender.errorfile.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss,SSS} %5
   - 在@After和@AfterReturning中优先执行@Order(10)的内容，再执行@Order(5)的内容
     
 <a name="ralated-scheduled"></a>   
-###12、[springboot-scheduled定时任务]() 
+###12、springboot-scheduled定时任务
 
 - 启动类开启定时任务
 ```java
@@ -875,7 +877,7 @@ public class SpringbootSchedulApplication {
     - @Scheduled(cron="*/5 * * * * *") ：通过cron表达式定义规则
 
 <a name="ralated-async"></a>   
-###13、[springboot-async异步调用]() 
+###13、springboot-async异步调用
 
 在需要异步执行的方法上加上注解@Async，启动类上配置@EnableAsync开启异步
  
@@ -1160,7 +1162,7 @@ public class Task3 {
 ```
 
 <a name="ralated-async-threadpool"></a>   
-###14、[springboot-async-threadpool自定义线程池]() 
+###14、springboot-async-threadpool自定义线程池
 
 启动类定义线程池：
 ```java
@@ -1253,7 +1255,7 @@ public class SpringbootAsyncThreadpoolApplicationTests {
 }
 ```
 <a name="ralated-async-threadpool-close"></a>   
-###15、[springboot-async-threadpool-close线程池正确关闭]()
+###15、springboot-async-threadpool-close线程池正确关闭
 结合redis测试：
 - 引入依赖：
 ```text
@@ -1376,5 +1378,177 @@ public class SpringbootAsyncThreadpoolCloseApplicationTests {
 }
 ```
 <a name="ralated-security"></a>   
-###15、[springboot-security安全控制]()
+###16、springboot-security安全控制
+引入依赖：
+  
+```text
+<!--thymeleaf模板依赖-->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-thymeleaf</artifactId>
+</dependency>
+<!--security依赖-->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-security</artifactId>
+</dependency>
+```
+
+配置文件：
+```java
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+
+/**
+ * spring security配置
+ */
+@Configuration
+@EnableWebSecurity
+public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
+
+    @Override
+    protected void configure(HttpSecurity http) throws Exception {
+        http.authorizeRequests()
+                .antMatchers("/", "/home").permitAll()
+                .anyRequest().authenticated()
+                .and()
+            .formLogin()
+                .loginPage("/login")
+                .permitAll()
+                .and()
+            .logout()
+                .permitAll();
+    }
+
+    /**
+     * Spring security 5.0中新增了多种加密方式，也改变了密码的格式。会报错:There is no PasswordEncoder mapped for the id "null"
+     * @return
+     */
+    @Autowired
+    public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
+        auth.inMemoryAuthentication()
+//                .withUser("dx").password("123").roles("USER");
+                .passwordEncoder(new BCryptPasswordEncoder())  // 设置加密方式
+                .withUser("dx")
+                .password(new BCryptPasswordEncoder().encode("123"))
+                .roles("USER");
+    }
+}
+```
+注：spring security抛出异常There is no PasswordEncoder mapped for the id “null”，在Spring security5.0中新增了多种加密方式，也改变了密码格式
+ 现如今Spring Security中密码的存储格式是“{id}…………”。前面的id是加密方式，id可以是bcrypt、sha256等，后面跟着的是加密后的密码
+官方推荐使用加密方式：**BCrypt**
+
+<a name="ralated-cache-ehcache"></a>   
+###17、springboot-cache-ehcache缓存支持注解配置与EhCache使用
+
+导入依赖：
+```text
+<dependencies>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-data-jpa</artifactId>
+    </dependency>
+
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>${mysql-connector}</version>
+    </dependency>
+
+    <!-- Spring Boot Mybatis 依赖 -->
+    <dependency>
+        <groupId>org.mybatis.spring.boot</groupId>
+        <artifactId>mybatis-spring-boot-starter</artifactId>
+        <version>${mybatis-spring-boot}</version>
+    </dependency>
+
+    <!-- 引入cache依赖 -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-cache</artifactId>
+    </dependency>
+</dependencies>
+
+<properties>
+    <mybatis-spring-boot>1.2.0</mybatis-spring-boot>
+    <mysql-connector>5.1.39</mysql-connector>
+</properties>
+```
+在启动类开启缓存功能：@EnableCaching
+```java
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cache.annotation.EnableCaching;
+
+@SpringBootApplication
+@EnableCaching
+public class DemoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DemoApplication.class, args);
+	}
+
+}
+```
+在数据访问接口中增加缓存配置注解：
+```java
+import org.springframework.cache.annotation.CacheConfig;
+import org.springframework.cache.annotation.Cacheable;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+
+@CacheConfig(cacheNames = "users")
+public interface UserRepository extends JpaRepository<User, Long>{
+    User findByName(String name);
+
+    User findByNameAndAge(String name, Integer age);
+
+    @Cacheable
+    @Query("from User u where u.name=:name")
+    User findUser(@Param("name") String name);
+}
+```
+
+Cache注解详解：
+
+引入依赖：
+```text
+<!-- 引入ehcache依赖 -->
+<dependency>
+    <groupId>net.sf.ehcache</groupId>
+    <artifactId>ehcache</artifactId>
+</dependency>
+```
+resource下添加配置ehcache.xml文件，也可以通过application.properties的属性来指定：
+```text
+spring.cache.ehcache.config=classpath:config/another-config.xml
+```
+
+```xml
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="ehcache.xsd">
+   
+    <!-- cache里的name和 UserRepository访问接口内cacheNames的名字相同才可以做缓存-->
+    
+    <cache name="my"
+           maxEntriesLocalHeap="200"
+           timeToLiveSeconds="600">
+    </cache>
+
+</ehcache>
+```
+注：
+- cache里的name和 UserRepository访问接口内cacheNames的名字相同才可以做缓存
+- jpa操作数据更新时，需要添加<code>@Modifying</code>注解，否则抛出InvalidDataAccessApiUsageException异常
+- jpa操作数据更新时，需要添加事务<code>@Transactional</code>注解，否则抛出InvalidDataAccessApiUsageException异常
+
+<a name="ralated-cache-redis"></a>   
+###18、springboot-cache-redis集中缓存Redis
 

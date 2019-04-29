@@ -24,6 +24,8 @@
         <option value="$PROJECT_DIR$/springboot-async-threadpool/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-async-threadpool-close/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-security/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-cache-ehcache/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-cache-redis/pom.xml" />
       </list>
     </option>
   </component>

@@ -38,6 +38,8 @@
 		<module>springboot-async-threadpool</module>
 		<module>springboot-async-threadpool-close</module>
 		<module>springboot-security</module>
+		<module>springboot-cache-ehcache</module>
+		<module>springboot-cache-redis</module>
 	</modules>
 
 	<properties>
