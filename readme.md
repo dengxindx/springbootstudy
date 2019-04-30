@@ -1,4 +1,4 @@
-## 目录
+##目录
 
 - [springboot整合redis](#ralated-redis)
 - [springboot配置文件](#ralated-aplication)
@@ -1551,4 +1551,64 @@ spring.cache.ehcache.config=classpath:config/another-config.xml
 
 <a name="ralated-cache-redis"></a>   
 ###18、springboot-cache-redis集中缓存Redis
+
+**Redis5种存储类型总结：** 
+
+redis的5中存储类型
+- string：字符串
+- list：列表
+- map（hash）：哈希
+- set：集合
+- stored-set：有序集合
+
+redis的string类型
+- 可表示3种类型，字符串、整数、浮点数
+- value内部以int、sds作为结构存储。int存放整型，sds存放字节、字符串、浮点型
+- sds内部结构：
+    - 数组存储字符串内容，长度大于存储内容，以“\0”（C标准库）结尾，预留几个空区（free区域），当添加的长度小于free区域，则sds不会重新申请内存，直接使用free区域
+    - 扩容：当对字符串的操作完成后预期长度小于1M，扩容后的buf数组大小=预期长度*2+1；若大于1M，则buf总是会预留出1M的free空间
+    - value对象通常具有两个内存部分：redisObject部分和redisObject的ptr指向的sds部分。创建value对象时，通常需要为redisObject和sds申请两次内存。
+    单对于短小的字符串，可以把两者连续存放，所以可以一次性把两者的内存一起申请了。reedis3.0新增的embstr，如果字符串长度小于39字节就用embstr对象否则是传统的raw对象
+    
+redis的list类型
+- list类型的value对象内部以linkedlist或ziplist承载。当list的元素个数和单个元素的长度较小时，redis会采用ziplist实现以减少内存占用，否则采用linkedlist结构
+- linkedlist内部实现是双向链表。在list中定义了头尾元素指针和列表的长度，是的pop/push操作、llen操作的复杂度为O(1)。由于是链表，lindex类的操作复杂度仍然是O(N)
+- ziplist的内部结构
+    - 所有内容被放置在连续的内存中。其中zlbytes表示ziplist的总长度，zltail指向最末元素，zllen表示元素个数，entry表示元素自身内容，zlend作为ziplist定界符
+    - rpush、rpop、llen，复杂度为O(1);lpush/pop操作由于涉及全列表元素的移动，复杂度为O(N)rpush、rpop、llen，复杂度为O(1);lpush/pop操作由于涉及全列表元素的移动，复杂度为O(N)
+    
+redis的map类型
+- map又叫hash。map内部的key和value不能再嵌套map了，只能是string类型：整形、浮点型和字符串
+- map主要由hashtable和ziplist两种承载方式实现，对于数据量较小的map，采用ziplist实现
+- hashtable内部结构 
+    - 主要分为三层，自底向上分别是dictEntry、dictht、dict
+    - dictEntry：管理一个key-value对，同时保留同一个桶中相邻元素的指针，一次维护哈希桶的内部链
+    - dictht：维护哈希表的所有桶链
+    - dict：当dictht需要扩容/缩容时，用于管理dictht的迁移
+    - 哈希表的核心结构是dictht，它的table字段维护着hash桶，它是一个数组，每个元素指向桶的第一个元素（dictEntry）
+    - set值的流程：先通过MurmurHash算法求出key的hash值，再对桶的个数取模，得到key对应的桶，再进入桶中，
+    遍历全部entry，判定是否已有相同的key，如果没有，则将新key对应的键值对插入到桶头，并且更新dictht的used数量，
+    used表示hash表中已经存了多少元素。由于每次插入都要遍历hash桶中的全部entry，所以当桶中entry很多时，性能会线性下降
+    - 扩容：通过负载因子判定是否需要增加桶数。负载因子=哈希表中已有元素/哈希桶数的比值。有两个阈值，小于1一定不扩容；
+    大于5一定扩容。扩容时新的桶数目是现有桶的2n倍
+    - 缩容：负载因子的阈值是0.1
+    - 扩/缩容通过新建哈希表的方式实现。即扩容时，会并存两个哈希表，一个是源表，一个是目标表。通过将源表的桶逐步迁移到目标表，
+    以数据迁移的方式实现扩容，迁移完成后目标表覆盖源表。迁移过程中，首先访问源表，如果发现key对应的源表桶已完成迁移，则重新访问目标表，否则在源表中操作
+    - redis是单线程处理请求，迁移和访问的请求在相同线程内进行，所以不会存在并发性问题
+- ziplist内部结构   
+    - 和list的ziplist实现类似。不同的是，map对应的ziplist的entry个数总是2的整数倍，奇数存放key，偶数存放value
+    - ziplist实现下，由哈希遍历变成了链表的顺序遍历，复杂度变成O(N)
+ 
+redis的set类型
+- set以intset或hashtable来存储。hashtable中的value永远为null，当set中只包含整数型的元素时，则采用intset
+- intset的内部结构 
+    - 核心元素是一个字节数组，从小到大有序存放着set的元素
+    - 由于元素有序排列，所以set的获取操作采用二分查找方式实现，复杂度O(log(N))。进行插入时，首先通过二分查找得到本次插入的位置，再对元素进行扩容，
+    再将预计插入位置之后的所有元素向右移动一个位置，最后插入元素，插入复杂度为O(N)。删除类似
+ 
+- redis的sorted-set类型
+    - 类似map是一个key-value对，但是有序的。value是一个浮点数，称为score，内部是按照score从小到大排序
+    - 内部结构以ziplist或skiplist+hashtable来实现
+
+**参考文档：<a href="https://blog.csdn.net/wuyangyang555/article/details/82152005">redis原理总结</a>**
 
