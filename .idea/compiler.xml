@@ -16,6 +16,7 @@
         <module name="springboot-cache-redis" />
         <module name="springboot-data-jpa" />
         <module name="springboot-freemarker" />
+        <module name="springboot-javamailsend" />
         <module name="springboot-log" />
         <module name="springboot-mongodb" />
         <module name="springboot-mutildatasource" />
@@ -42,6 +43,7 @@
       <module name="springboot-cache-redis" target="1.8" />
       <module name="springboot-data-jpa" target="1.8" />
       <module name="springboot-freemarker" target="1.8" />
+      <module name="springboot-javamailsend" target="1.8" />
       <module name="springboot-log" target="1.8" />
       <module name="springboot-mongodb" target="1.8" />
       <module name="springboot-mutildatasource" target="1.8" />

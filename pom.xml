@@ -40,6 +40,7 @@
 		<module>springboot-security</module>
 		<module>springboot-cache-ehcache</module>
 		<module>springboot-cache-redis</module>
+		<module>springboot-javamailsend</module>
 	</modules>
 
 	<properties>

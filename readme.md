@@ -18,6 +18,7 @@
 - [springboot-security安全控制](#ralated-security)
 - [springboot-cache-ehcache缓存支持注解配置与EhCache使用](#ralated-cache-ehcache)
 - [springboot-cache-redis集中缓存Redis](#ralated-cache-redis)
+- [springboot-javaMailSender邮件发送](#ralated-mailsend)
 
 <a name="ralated-redis"></a>
 ###1、springboot整合redis
@@ -1549,6 +1550,11 @@ spring.cache.ehcache.config=classpath:config/another-config.xml
 - jpa操作数据更新时，需要添加<code>@Modifying</code>注解，否则抛出InvalidDataAccessApiUsageException异常
 - jpa操作数据更新时，需要添加事务<code>@Transactional</code>注解，否则抛出InvalidDataAccessApiUsageException异常
 
+<code>@Cacheable</code>的使用：
+    
+- value属性是必须指定的，其表示当前方法的返回值是会被缓存在哪个Cache上的，对应Cache的名称。其可以是一个Cache也可以是多个Cache，当需要指定多个Cache时其是一个数组
+- 自定义key策略。key="#..."，支持SpringEL表达式，使用方法参数时我们可以直接使用“#参数名”或者“#p参数index”   
+
 <a name="ralated-cache-redis"></a>   
 ###18、springboot-cache-redis集中缓存Redis
 
@@ -1612,3 +1618,112 @@ redis的set类型
 
 **参考文档：<a href="https://blog.csdn.net/wuyangyang555/article/details/82152005">redis原理总结</a>**
 
+<a name="ralated-mailsend"></a>   
+###19、springboot-javaMailSender邮件发送
+
+导入依赖：
+```text
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-mail</artifactId>
+</dependency>
+```
+
+配置文件配置:
+```properties
+spring.mail.host=smtp.qq.com
+spring.mail.username=490468784@qq.com
+#这里的密码需要邮件开启smtp、pop3协议返回的一个授权码
+spring.mail.password=xxxxxxx
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
+spring.mail.properties.mail.smtp.starttls.required=true
+```
+
+本地测试：
+```java
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.core.io.FileSystemResource;
+import org.springframework.mail.SimpleMailMessage;
+import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.mail.javamail.MimeMessageHelper;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import javax.mail.MessagingException;
+import javax.mail.internet.MimeMessage;
+import java.io.File;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class SpringbootJavamailsendApplicationTests {
+
+	@Autowired
+	private JavaMailSender mailSender;
+
+	/**
+	 * 发送简单的邮件
+	 */
+	@Test
+	public void sendMail() {
+		SimpleMailMessage message = new SimpleMailMessage();
+		message.setFrom("490468784@qq.com");
+		message.setTo("490468784@qq.com");
+		message.setSubject("测试邮件");
+		message.setText("你好，秀儿");
+
+		mailSender.send(message);
+	}
+
+	/**
+	 * 发送带附件的邮件
+	 */
+	@Test
+	public void sendAttachmentsMail() throws MessagingException {
+		File file = new File("C:\\Users\\wudongchun\\Desktop\\测试文本.txt");
+		FileSystemResource systemResource = new FileSystemResource(file);
+
+		MimeMessage mimeMessage = mailSender.createMimeMessage();
+
+		MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, true);
+		helper.setFrom("490468784@qq.com");
+		helper.setTo("490468784@qq.com");
+		helper.setSubject("测试邮件(带附件)");
+		helper.setText("你好，秀儿");
+//		helper.addAttachment("附件1.txt", file);
+		helper.addAttachment("附件1.txt", systemResource);
+
+		mailSender.send(mimeMessage);
+	}
+
+	/**
+	 * 发送正文静态资源邮件
+	 */
+	@Test
+	public void sendInLineMail() throws MessagingException {
+		FileSystemResource systemResource = new FileSystemResource(new File("C:\\Users\\wudongchun\\Desktop\\测试.jpg"));
+
+		MimeMessage mimeMessage = mailSender.createMimeMessage();
+
+		MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, true);
+		helper.setFrom("490468784@qq.com");
+		helper.setTo("490468784@qq.com");
+		helper.setSubject("测试邮件(静态资源)");
+		helper.setText("hello，<html><body><img src=\"cid:pic\"></body></html>", true);
+		helper.addInline("pic", systemResource);
+
+		mailSender.send(mimeMessage);
+	}
+
+	
+}
+```
+
+模板邮件使用：
+
+导入依赖：
+```text
+
+```

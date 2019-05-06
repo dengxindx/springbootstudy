@@ -41,4 +41,21 @@ public class SpringbootCacheRedisApplicationTests {
 		User user3 = userRepository.findByName("张三");
 		System.out.println("第三次查询：" + user3);
 	}
+
+	@Test
+	public void t2() {
+		User user1 = userRepository.findByIdAndName(1L, "张三");
+		System.out.println("第一次查询：" + user1);
+
+		User user2 = userRepository.findByIdAndName(1L, "张三");
+		System.out.println("第二次查询：" + user2);
+
+		user1.setAge(20);
+		userRepository.save(user1);
+		User user3 = userRepository.findByIdAndName(1L, "张三");
+		System.out.println("第三次查询：" + user3);
+
+		userRepository.deleteById(1L);
+		System.out.println("删除成功");
+	}
 }
