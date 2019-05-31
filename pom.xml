@@ -41,6 +41,7 @@
 		<module>springboot-cache-ehcache</module>
 		<module>springboot-cache-redis</module>
 		<module>springboot-javamailsend</module>
+		<module>springboot-rabbitmq-mytest</module>
 	</modules>
 
 	<properties>

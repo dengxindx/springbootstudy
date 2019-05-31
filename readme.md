@@ -19,6 +19,8 @@
 - [springboot-cache-ehcache缓存支持注解配置与EhCache使用](#ralated-cache-ehcache)
 - [springboot-cache-redis集中缓存Redis](#ralated-cache-redis)
 - [springboot-javaMailSender邮件发送](#ralated-mailsend)
+- [springboot-rabbitmq-mytest个人测试RabbitMQ消息队列](#ralated-rabbitmq-mytest)
+- [CAS](#ralated-cas)
 
 <a name="ralated-redis"></a>
 ###1、springboot整合redis
@@ -1725,5 +1727,120 @@ public class SpringbootJavamailsendApplicationTests {
 
 导入依赖：
 ```text
-
+<!-- 较新版本springboot不提供velocity集成，单独导入依赖，模板邮件依赖 -->
+<dependency>
+    <groupId>org.apache.velocity</groupId>
+    <artifactId>velocity</artifactId>
+    <version>1.7</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.velocity</groupId>
+    <artifactId>velocity-tools</artifactId>
+    <version>2.0</version>
+</dependency>
 ```
+
+使用Velocity模板邮件需要配置VelocityEngine：
+```java
+import org.apache.velocity.app.VelocityEngine;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import java.util.Properties;
+
+/**
+ * velocity配置类
+ */
+@Configuration
+public class VelocityEngineConfig {
+   
+    @Bean
+    public VelocityEngine velocityEngine() throws Exception {
+        Properties properties = new Properties();
+        properties.setProperty("input.encoding", "UTF-8");
+        properties.setProperty("output.encoding", "UTF-8");
+        //设置velocity资源加载方式为class
+        properties.setProperty("resource.loader", "class");
+        //设置velocity资源加载方式为class时的处理类
+        properties.setProperty("class.resource.loader.class", "org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader");
+        VelocityEngine velocityEngine = new VelocityEngine(properties);
+        return velocityEngine;
+    }
+}
+```
+
+测试类：
+```java
+/**
+ * 模板邮件
+ */
+
+@Autowired
+private VelocityEngine velocityEngine;
+
+@Test
+public void snedTemplateMail() throws MessagingException {
+    MimeMessage mimeMessage = mailSender.createMimeMessage();
+   
+    VelocityContext contex = new VelocityContext();
+    contex.put("username", "秀儿");
+    StringWriter stringWriter = new StringWriter();
+    // 需要注意第1个参数要全路径，否则会抛异常
+    velocityEngine.mergeTemplate("/templates/template.vm", "UTF-8", contex, stringWriter);
+    
+    MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, true);
+    helper.setFrom("490468784@qq.com");
+    helper.setTo("490468784@qq.com");
+    helper.setSubject("模板邮件测试");
+    helper.setText(stringWriter.toString(), true);
+    
+    mailSender.send(mimeMessage);
+}
+```
+
+<a name="ralated-rabbitmq-mytest"></a>   
+###20、springboot-rabbitmq-mytest个人测试RabbitMQ消息队列
+
+交换机四种调度策略：
+- Direct:
+- topic:
+- headers:
+- fanout:
+
+<a name="ralated-cas"></a>   
+###20、CAS
+
+```text
+CAS机制:CAS是英文单词Compare and Swap的缩写。
+        
+CAS机制中使用了3个基本操作数：内存地址V，旧的预期值A，要修改的新值B。
+  
+CAS的缺点：
+
+1） CPU开销过大
+
+在并发量比较高的情况下，如果许多线程反复尝试更新某一个变量，却又一直更新不成功，循环往复，会给CPU带来很到的压力。
+
+2） 不能保证代码块的原子性
+
+CAS机制所保证的知识一个变量的原子性操作，而不能保证整个代码块的原子性。比如需要保证3个变量共同进行原子性的更新，就不得不使用synchronized了。
+
+3） ABA问题
+
+这是CAS机制最大的问题所在。
+  
+ABA问题可以添加版本号做两次操作的判断
+    
+在Java中，AtomicStampedReference类就实现了用版本号作比较额CAS机制。   
+ 
+1. java语言CAS底层如何实现？
+
+利用unsafe提供的原子性操作方法。
+
+2.什么事ABA问题？怎么解决？
+
+当一个值从A变成B，又更新回A，普通CAS机制会误判通过检测。
+
+利用版本号比较可以有效解决ABA问题。
+```
+

@@ -6,31 +6,19 @@
 		<groupId>com.dx</groupId>
 		<artifactId>spring-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-
 	<groupId>com.dx</groupId>
-	<artifactId>springboot-javamailsend</artifactId>
+	<artifactId>springboot-rabbitmq-mytest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot-javamailsend</name>
+	<name>springboot-rabbitmq-mytest</name>
 	<description>Demo project for Spring Boot</description>
 
+
 	<dependencies>
+		<!-- 引入AMQP协议依赖，支持RabbitMQ -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-mail</artifactId>
-		</dependency>
-
-		<!-- 模板邮件依赖 -->
-		<dependency>
-			<groupId>org.apache.velocity</groupId>
-			<artifactId>velocity</artifactId>
-            <version>1.7</version>
-        </dependency>
-		<dependency>
-			<groupId>org.apache.velocity</groupId>
-			<artifactId>velocity-tools</artifactId>
-			<version>2.0</version>
+			<artifactId>spring-boot-starter-amqp</artifactId>
 		</dependency>
 	</dependencies>
 

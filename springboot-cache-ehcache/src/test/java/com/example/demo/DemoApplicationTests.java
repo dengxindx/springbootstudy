@@ -36,6 +36,12 @@ public class DemoApplicationTests {
 
 		User user2 = userRepository.findByName("张三");
 		System.out.println("第二次查询：" + user2);
+
+		User user3 = userRepository.findByName("王五");
+		System.out.println("第一次查询：" + user3);
+
+		User user4 = userRepository.findByName("王五");
+		System.out.println("第二次查询：" + user4);
 	}
 
 	@Test

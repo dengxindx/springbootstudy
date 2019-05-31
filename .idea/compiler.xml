@@ -24,6 +24,7 @@
         <module name="springboot-mybatis" />
         <module name="springboot-mybatis-annotation" />
         <module name="springboot-mybatis-druid" />
+        <module name="springboot-rabbitmq-mytest" />
         <module name="springboot-redis1" />
         <module name="springboot-restful" />
         <module name="springboot-schedul" />
@@ -51,6 +52,7 @@
       <module name="springboot-mybatis" target="1.8" />
       <module name="springboot-mybatis-annotation" target="1.8" />
       <module name="springboot-mybatis-druid" target="1.8" />
+      <module name="springboot-rabbitmq-mytest" target="1.8" />
       <module name="springboot-redis1" target="1.8" />
       <module name="springboot-restful" target="1.8" />
       <module name="springboot-schedul" target="1.8" />

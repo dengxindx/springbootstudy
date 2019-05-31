@@ -12,7 +12,8 @@ import org.springframework.transaction.annotation.Transactional;
 @Transactional
 public interface UserRepository extends JpaRepository<User, Long>{
 
-    @Cacheable(cacheNames = "my")
+//    @Cacheable(cacheNames = "my", key = "#p0")
+    @Cacheable(cacheNames = "my", key = "#a0")
     User findByName(String name);
 
     User findByNameAndAge(String name, Integer age);

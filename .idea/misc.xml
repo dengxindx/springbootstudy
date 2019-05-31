@@ -27,6 +27,7 @@
         <option value="$PROJECT_DIR$/springboot-cache-ehcache/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-cache-redis/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-javamailsend/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq-mytest/pom.xml" />
       </list>
     </option>
   </component>
