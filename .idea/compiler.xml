@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-rabbitmq-test" />
         <module name="springboot-aop-log" />
         <module name="springboot-application1" />
         <module name="springboot-application2" />
@@ -25,6 +26,7 @@
         <module name="springboot-mybatis-annotation" />
         <module name="springboot-mybatis-druid" />
         <module name="springboot-rabbitmq-mytest" />
+        <module name="springboot-rabbitmq-test2" />
         <module name="springboot-redis1" />
         <module name="springboot-restful" />
         <module name="springboot-schedul" />
@@ -34,6 +36,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-parent" target="1.8" />
+      <module name="spring-rabbitmq-test" target="1.8" />
+      <module name="spring-rabbitmq-test2" target="1.8" />
       <module name="springboot-aop-log" target="1.8" />
       <module name="springboot-application1" target="1.8" />
       <module name="springboot-application2" target="1.8" />
@@ -53,11 +57,14 @@
       <module name="springboot-mybatis-annotation" target="1.8" />
       <module name="springboot-mybatis-druid" target="1.8" />
       <module name="springboot-rabbitmq-mytest" target="1.8" />
+      <module name="springboot-rabbitmq-test2" target="1.8" />
       <module name="springboot-redis1" target="1.8" />
       <module name="springboot-restful" target="1.8" />
       <module name="springboot-schedul" target="1.8" />
       <module name="springboot-security" target="1.8" />
       <module name="springboot-swagger2" target="1.8" />
+      <module name="springrabbitemqt1" target="1.8" />
+      <module name="springrabbitmqt1" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springrabbitemqt1:war">
+    <output-path>$PROJECT_DIR$/springrabbitemqt1/target</output-path>
+    <root id="archive" name="spring-rabbitemq-t1.war">
+      <element id="artifact" artifact-name="springrabbitemqt1:war exploded" />
+    </root>
+  </artifact>
+</component>

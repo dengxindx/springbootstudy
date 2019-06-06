@@ -42,6 +42,8 @@
 		<module>springboot-cache-redis</module>
 		<module>springboot-javamailsend</module>
 		<module>springboot-rabbitmq-mytest</module>
+		<module>spring-rabbitmq-test</module>
+		<module>springboot-rabbitmq-test2</module>
 	</modules>
 
 	<properties>

@@ -21,6 +21,8 @@
 - [springboot-javaMailSender邮件发送](#ralated-mailsend)
 - [springboot-rabbitmq-mytest个人测试RabbitMQ消息队列](#ralated-rabbitmq-mytest)
 - [CAS](#ralated-cas)
+- [java-rabbitmq-test1](#ralated-java-rabbitmq-test1)
+- [springboot-rabbitmq-test2](#ralated-rabbitmq-test2)
 
 <a name="ralated-redis"></a>
 ###1、springboot整合redis
@@ -1803,12 +1805,22 @@ public void snedTemplateMail() throws MessagingException {
 
 交换机四种调度策略：
 - Direct:
-- topic:
-- headers:
+    - 处理路由键。需要将一个队列绑定到交换机上，要求该消息与一个特定的路由键完全匹配。这是一个完整的匹配。如果一个队列绑定到该交换机上要求路由键 “test”，则只有被标记为“test”的消息才被转发，不会转发test.aaa，也不会转发dog.123，只会转发test。
 - fanout:
+    - 不处理路由，只要有消费发送到交换机，所有绑定了该交换机的队列都会接收到消息。Fanout交换机转发消息是最快的。
+- topic:
+    - 将路由键和某模式进行匹配。此时队列需要绑定要一个模式上。符号“#”匹配一个或多个词，符号“*”匹配不多不少一个词。因此“abc.#”能够匹配到“abc.def.ghi”，但是“abc.*” 只会匹配到“abc.def”
+- headers:
+    - 不处理路由键。而是根据发送的消息内容中的headers属性进行匹配。在绑定Queue与Exchange时指定一组键值对；当消息发送到RabbitMQ时会取到该消息的headers与Exchange绑定时指定的键值对进行匹配；如果完全匹配则消息会路由到该队列，否则不会路由到该队列。headers属性是一个键值对，可以是Hashtable，键值对的值可以是任何类型。而fanout，direct，topic 的路由键都需要要字符串形式的。
 
+匹配规则x-match有下列两种类型：
+
+x-match = all ：表示所有的键值对都匹配才能接受到消息
+
+x-match = any ：表示只要有键值对匹配就能接受到消息
+  
 <a name="ralated-cas"></a>   
-###20、CAS
+###21、CAS
 
 ```text
 CAS机制:CAS是英文单词Compare and Swap的缩写。
@@ -1843,4 +1855,25 @@ ABA问题可以添加版本号做两次操作的判断
 
 利用版本号比较可以有效解决ABA问题。
 ```
+
+<a name="ralated-java-rabbitmq-test1"></a>   
+###22、java-rabbitmq-test1
+
+测试java对rabbitmq三种策略的支持
+详见spring-rabbitmq-test项目
+
+<a name="ralated-rabbitmq-test2"></a>   
+###23、springboot-rabbitmq-test2
+
+注意：
+- 非guest用户。配置文件中需要设置用户访问的virtual-host。在可视化管理工具中为该用户设置权限
+```properties
+spring.rabbitmq.host=localhost
+spring.rabbitmq.port=5672
+spring.rabbitmq.username=dx
+spring.rabbitmq.password=123
+#非guest用户需要设置权限
+spring.rabbitmq.virtual-host=testhost
+```
+springboot-rabbitmq简单测试4种策略
 
