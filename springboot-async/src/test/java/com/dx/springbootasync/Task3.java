@@ -62,7 +62,7 @@ public class Task3 {
                 e.printStackTrace();
             }
             return "Hi Girl";
-        }), (s) -> s).join();
+        }), s -> s).join();
         System.out.println(result);
     }
 

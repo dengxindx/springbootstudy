@@ -1,6 +1,8 @@
 package com.example.demo.domain;
 
 import org.springframework.cache.annotation.CacheConfig;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
@@ -25,4 +27,9 @@ public interface UserRepository extends JpaRepository<User, Long>{
     @Modifying
     @Query("update User u set u.name=:newname where u.name=:oldname")
     void updateUser(@Param("newname") String newname, @Param("oldname") String oldname);
+
+    @CacheEvict(cacheNames = "my", key = "#p1")
+    @Modifying
+    @Query("update User u set u.age=:age where u.name=:name")
+    void updateUserByName(@Param("age") Integer age, @Param("name") String name);
 }

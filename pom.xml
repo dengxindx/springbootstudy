@@ -44,7 +44,8 @@
 		<module>springboot-rabbitmq-mytest</module>
 		<module>spring-rabbitmq-test</module>
 		<module>springboot-rabbitmq-test2</module>
-	</modules>
+        <module>mytest</module>
+    </modules>
 
 	<properties>
 		<java.version>1.8</java.version>

@@ -66,7 +66,7 @@ public class MyTests {
 
         service.shutdown();
         // n秒之后还没有结束所有线程
-        while (!service.awaitTermination(1, TimeUnit.SECONDS)) {
+        while (!service.awaitTermination(2, TimeUnit.SECONDS)) {
             System.out.println("线程池正在使用....");
         }
 

@@ -22,11 +22,10 @@ public class Sender {
     public void send () throws InterruptedException {
         int i = 1;
         do {
-            String message = "hello world" + i;
+            String message = "hello world" + i++;
             System.out.println("生产消息:" + message);
             rabbitTemplate.convertAndSend(queue.getName(), message);
 //            TimeUnit.SECONDS.sleep(1);
-            i++;
         }while (i <= 10);
 
     }

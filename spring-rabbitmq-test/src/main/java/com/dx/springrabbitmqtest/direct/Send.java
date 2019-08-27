@@ -22,12 +22,11 @@ public class Send {
         int i = 1;
         do {
             // 消息内容
-            String message = "Hello World!" + i;
+            String message = "Hello World!" + i++;
 
             //交换机，key，，
             channel.basicPublish(EXCHANGE_NAME, "delete", null, message.getBytes());
             System.out.println("生产消息：" + message);
-            i++;
         }while (i <= 50);
 
         channel.close();

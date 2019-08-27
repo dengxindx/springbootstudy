@@ -1638,8 +1638,11 @@ redis的set类型
 spring.mail.host=smtp.qq.com
 spring.mail.username=490468784@qq.com
 #这里的密码需要邮件开启smtp、pop3协议返回的一个授权码
-spring.mail.password=xxxxxxx
+spring.mail.password=
+# 设置是否需要认证，如果为true,那么用户名和密码就必须的
+#如果设置false，可以不设置用户名和密码，当然也得看你的对接的平台是否支持无密码进行访问的。
 spring.mail.properties.mail.smtp.auth=true
+# STARTTLS[1]  是对纯文本通信协议的扩展。它提供一种方式将纯文本连接升级为加密连接（TLS或SSL），而不是另外使用一个端口作加密通信。
 spring.mail.properties.mail.smtp.starttls.enable=true
 spring.mail.properties.mail.smtp.starttls.required=true
 ```
@@ -1809,7 +1812,7 @@ public void snedTemplateMail() throws MessagingException {
 - fanout:
     - 不处理路由，只要有消费发送到交换机，所有绑定了该交换机的队列都会接收到消息。Fanout交换机转发消息是最快的。
 - topic:
-    - 将路由键和某模式进行匹配。此时队列需要绑定要一个模式上。符号“#”匹配一个或多个词，符号“*”匹配不多不少一个词。因此“abc.#”能够匹配到“abc.def.ghi”，但是“abc.*” 只会匹配到“abc.def”
+    - 将路由键和某模式进行匹配。此时队列需要绑定要一个模式上。符号“#”匹配一个或多个词，符号“\*”匹配不多不少一个词。因此“abc.#”能够匹配到“abc.def.ghi”，但是“abc.\*” 只会匹配到“abc.def”
 - headers:
     - 不处理路由键。而是根据发送的消息内容中的headers属性进行匹配。在绑定Queue与Exchange时指定一组键值对；当消息发送到RabbitMQ时会取到该消息的headers与Exchange绑定时指定的键值对进行匹配；如果完全匹配则消息会路由到该队列，否则不会路由到该队列。headers属性是一个键值对，可以是Hashtable，键值对的值可以是任何类型。而fanout，direct，topic 的路由键都需要要字符串形式的。
 
