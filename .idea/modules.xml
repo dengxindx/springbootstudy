@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/mytest2/mytest2.iml" filepath="$PROJECT_DIR$/mytest2/mytest2.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-parent.iml" filepath="$PROJECT_DIR$/spring-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-rabbitmq-test/spring-rabbitmq-test.iml" filepath="$PROJECT_DIR$/spring-rabbitmq-test/spring-rabbitmq-test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-rabbitmq-test3/spring-rabbitmq-test3.iml" filepath="$PROJECT_DIR$/spring-rabbitmq-test3/spring-rabbitmq-test3.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-aop-log/springboot-aop-log.iml" filepath="$PROJECT_DIR$/springboot-aop-log/springboot-aop-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-application1/springboot-application1.iml" filepath="$PROJECT_DIR$/springboot-application1/springboot-application1.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-application2/springboot-application2.iml" filepath="$PROJECT_DIR$/springboot-application2/springboot-application2.iml" />

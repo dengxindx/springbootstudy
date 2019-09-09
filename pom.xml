@@ -45,6 +45,7 @@
 		<module>spring-rabbitmq-test</module>
 		<module>springboot-rabbitmq-test2</module>
         <module>mytest</module>
+        <module>mytest2</module>
     </modules>
 
 	<properties>

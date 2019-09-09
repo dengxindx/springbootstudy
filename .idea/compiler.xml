@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mytest2" />
         <module name="spring-rabbitmq-test" />
         <module name="springboot-aop-log" />
         <module name="springboot-application1" />
@@ -35,6 +36,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="mytest2" target="1.8" />
       <module name="spring-parent" target="1.8" />
       <module name="spring-rabbitmq-test" target="1.8" />
       <module name="spring-rabbitmq-test2" target="1.8" />
